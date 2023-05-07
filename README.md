@@ -17,7 +17,7 @@ This repository hosts the code of SkipStreaming and the video dataset involved i
 
 The key component of SkipStreaming is a stand-alone server module implemented with a total of 4K and 300 lines of C/C++ and Python code, which can be seamlessly integrated into mainstream web servers with minimal configurations.
 
-The source code of SkipStreaming is released at [SkipStreaming/SkipStreaming.github.io](https://github.com/SkipStreaming/SkipStreaming.github.io)
+The source code of SkipStreaming is released at https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/SkipStreaming
 
 ## 3. Dataset
 
