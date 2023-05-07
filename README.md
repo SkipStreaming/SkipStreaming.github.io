@@ -23,5 +23,5 @@ The source code of SkipStreaming is released at [SkipStreaming/SkipStreaming.git
 
 We provide the information (in particular the marker information) about our dataset videos collected from major video content providers (e.g., Netflix, Amazon Prime Video, HBO Max).
 
-The dataset is available at [SkipStreaming/SkipStreaming.github.io](https://github.com/SkipStreaming/SkipStreaming.github.io)
+The dataset is available at https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/dataset
 
