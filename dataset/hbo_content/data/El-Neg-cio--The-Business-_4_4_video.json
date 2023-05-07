@@ -1,0 +1,159 @@
+[
+  {
+    "id": "urn:hbo:video:GX7Qq4AE_TsIOwwEAAAE3:episode:GWmeQHgqSgsJInwEAAAMd",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"1c03-KQm38XosswZ3ke5t7e1SEw\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AMAZON"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=pt-BR&r.duration=3017.013916&r.host=https%3A%2F%2Fcmaf.cf.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX7Qq4AE_TsIOwwEAAAE3%2F1%2F5a3d4d%2F1_JoAEYw_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Qq4AE_TsIOwwEAAAE3/1/5a3d4d/1_JoAEYw_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "pt-BR",
+          "defaultAudioSelection": {
+            "language": "pt-BR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Qq4AE_TsIOwwEAAAE3/1/5a3d4d/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Qq4AE_TsIOwwEAAAE3/1/5a3d4d/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3017.013916015,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            },
+            {
+              "code": "N",
+              "name": "Nudity"
+            }
+          ],
+          "videoId": "GX7Qscw7pAlaiwgEAAAFn",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 81.790042,
+              "end": 167.91875,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "pt-BR",
+          "defaultAudioSelection": {
+            "language": "pt-BR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Qq4AE_TsIOwwEAAAE3/1/5a3d4d/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Qq4AE_TsIOwwEAAAE3/1/5a3d4d/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3017.013916015,
+          "videoId": "GX7Qscw7pAlaiwgEAAAFn",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 81.790042,
+              "end": 167.91875,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

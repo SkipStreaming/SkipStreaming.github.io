@@ -1,0 +1,956 @@
+{
+  "catalogMetadata": {
+    "catalog": {
+      "entityType": "TV Show",
+      "episodeNumber": 10,
+      "id": "amzn1.dv.gti.62b30e78-7e18-bc4d-bbed-ba5ff6a90362",
+      "runtimeSeconds": 3485,
+      "synopsis": "Juliana’s attempt to stop the Nazis lands her in a precarious position. Himmler and John Smith lead a lavish celebration of Year Zero. Amid a series of successes, Smith faces a setback. Kido returns to San Francisco with a prize, performs an act of kindness for a friend. Tagomi makes a difficult decision. Ed returns to San Francisco and reconnects with Childan.",
+      "title": "Jahr Null",
+      "type": "EPISODE",
+      "version": "1.0"
+    },
+    "family": {
+      "tvAncestors": [
+        {
+          "catalog": {
+            "id": "amzn1.dv.gti.88b254bb-2fe4-febc-ffd7-ed7fc074deaa",
+            "seasonNumber": 3,
+            "title": "Man in the High Castle - Season 3",
+            "type": "SEASON",
+            "version": "1.0"
+          },
+          "version": "1"
+        },
+        {
+          "catalog": {
+            "id": "amzn1.dv.gti.0eaaa1cc-ec7a-74e5-6229-de0d8d683216",
+            "title": "The Man in the High Castle",
+            "type": "SHOW",
+            "version": "1.0"
+          },
+          "version": "1"
+        }
+      ],
+      "version": "1.0"
+    },
+    "images": {
+      "imageUrls": {
+        "episode": "https://images-na.ssl-images-amazon.com/images/I/81qamla8IaL._UY500_UX667_PJPrime-Sash-Extra-Large-2017,TopLeft,0,0_UY500_RI_.jpg",
+        "hero": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/ee6278156669607194278623795d3b5b9ad771a7a1db1c14c74c76d0a799b1b7._RI_.jpg",
+        "title": "https://images-na.ssl-images-amazon.com/images/I/91q0fxvHynL._UY500_UX667_PJPrime-Sash-Extra-Large-2017,TopLeft,0,0_UY500_RI_.jpg"
+      },
+      "version": "1.0"
+    },
+    "playback": {
+      "accessControls": {
+        "pinLength": 5,
+        "restrictions": []
+      },
+      "audioTracks": [
+        {
+          "displayName": "Español (España)",
+          "id": "es-es_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "es_ES",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Italiano",
+          "id": "it-it_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "it_IT",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Español (Latinoamérica)",
+          "id": "es-419_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "es_419",
+          "type": "dialog"
+        },
+        {
+          "displayName": "English",
+          "id": "en-us_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "en_US",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Polski",
+          "id": "pl-pl_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "pl_PL",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Čeština",
+          "id": "cs-cz_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "cs_CZ",
+          "type": "dialog"
+        },
+        {
+          "displayName": "日本語",
+          "id": "ja-jp_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "ja_JP",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Português",
+          "id": "pt-br_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "pt_BR",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Magyar",
+          "id": "hu-hu_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "hu_HU",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Deutsch",
+          "id": "de-de_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "de_DE",
+          "type": "dialog"
+        },
+        {
+          "displayName": "English [Audio Description]",
+          "id": "en-us_descriptive_0",
+          "isOriginalLanguage": false,
+          "language": "en_US",
+          "type": "descriptive"
+        },
+        {
+          "displayName": "Français",
+          "id": "fr-fr_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "fr_FR",
+          "type": "dialog"
+        }
+      ],
+      "summary": {
+        "isPlayable": true
+      },
+      "version": "2.0"
+    },
+    "reviews": {
+      "rating": {
+        "count": 2703,
+        "value": 2.6
+      },
+      "version": "1.0"
+    },
+    "version": "1"
+  },
+  "cuepointPlaylist": {
+    "additionalMetadata": {
+      "showCountdownTimer": false
+    },
+    "encodedManifest": "PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48dm1hcDpWTUFQIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnZtYXA9Imh0dHA6Ly93d3cuaWFiLm5ldC92bWFwLTEuMCIgdmVyc2lvbj0iMS4wIj48dm1hcDpBZEJyZWFrIGJyZWFrVHlwZT0ibGluZWFyIiB0aW1lT2Zmc2V0PSJzdGFydCIgYnJlYWtJZD0iMSI+PHZtYXA6QWRTb3VyY2UgZm9sbG93UmVkaXJlY3RzPSJ0cnVlIiBhbGxvd011bHRpcGxlQWRzPSJ0cnVlIiBpZD0iMSI+PHZtYXA6VkFTVEFkRGF0YT48VkFTVCB4c2k6bm9OYW1lc3BhY2VTY2hlbWFMb2NhdGlvbj0idmFzdC54c2QiIHZlcnNpb249IjMuMCI+PEFkIHNlcXVlbmNlPSIxIiBpZD0iMzNmNjM3OTY4NGViNGE5MDg2OTAyYzc4NTg1M2FiYWIiPjxJbkxpbmU+PEFkU3lzdGVtPkFUVkRyYXBlclNjaGVkdWxpbmdTZXJ2aWNlPC9BZFN5c3RlbT48QWRUaXRsZT5FWFBBX1M2X1Bvc3RfMzBzX1dlbGNvbWV0b1RoZUJlbHQ8L0FkVGl0bGU+PEVycm9yPmh0dHBzOi8vdGVycy51cy1lYXN0LTEuYWl2LWRlbGl2ZXJ5Lm5ldC92MS9SZXBvcnRFdmVudD9zaG9ydGVuZWQ9dHJ1ZSZhbXA7ZGF0YT15b2RhLXZvZCUzQSUzQTE3OWU5ODhlLWRmOGItNDBmNS1hMDcyLTc4NTBlMDhiN2ZjZiUzQSUzQTFhZjFkYzExLWY1ZDctNDdiYi05ZTFhLTBmNTM2MGNhNWJjMSZhbXA7Y29uc3VtcHRpb25JZD1bQ09OU1VNUFRJT05JRF08L0Vycm9yPjxJbXByZXNzaW9uPmh0dHBzOi8vdGVycy51cy1lYXN0LTEuYWl2LWRlbGl2ZXJ5Lm5ldC92MS9SZXBvcnRFdmVudD9zaG9ydGVuZWQ9dHJ1ZSZhbXA7ZGF0YT15b2RhLXZvZCUzQSUzQTE3OWU5ODhlLWRmOGItNDBmNS1hMDcyLTc4NTBlMDhiN2ZjZiUzQSUzQTFjMmViYWRkLTE1NGMtNDdmNS04NDUxLTg0N2FmMDk3NWQzMiZhbXA7Y29uc3VtcHRpb25JZD1bQ09OU1VNUFRJT05JRF08L0ltcHJlc3Npb24+PENyZWF0aXZlcz48Q3JlYXRpdmUgQWRJRD0iMzNmNjM3OTY4NGViNGE5MDg2OTAyYzc4NTg1M2FiYWIiPjxMaW5lYXI+PER1cmF0aW9uPjAwOjAwOjMwPC9EdXJhdGlvbj48VHJhY2tpbmdFdmVudHM+PFRyYWNraW5nIGV2ZW50PSJjb21wbGV0ZSI+aHR0cHM6Ly90ZXJzLnVzLWVhc3QtMS5haXYtZGVsaXZlcnkubmV0L3YxL1JlcG9ydEV2ZW50P3Nob3J0ZW5lZD10cnVlJmFtcDtkYXRhPXlvZGEtdm9kJTNBJTNBMTc5ZTk4OGUtZGY4Yi00MGY1LWEwNzItNzg1MGUwOGI3ZmNmJTNBJTNBNWU3NDk0OWQtNzExYS00ZjBhLTk3ZTAtOTg5NmQxODBmNWJiJmFtcDtjb25zdW1wdGlvbklkPVtDT05TVU1QVElPTklEXTwvVHJhY2tpbmc+PFRyYWNraW5nIGV2ZW50PSJmaXJzdFF1YXJ0aWxlIj5odHRwczovL3RlcnMudXMtZWFzdC0xLmFpdi1kZWxpdmVyeS5uZXQvdjEvUmVwb3J0RXZlbnQ/c2hvcnRlbmVkPXRydWUmYW1wO2RhdGE9eW9kYS12b2QlM0ElM0ExNzllOTg4ZS1kZjhiLTQwZjUtYTA3Mi03ODUwZTA4YjdmY2YlM0ElM0E2Y2U2NjcyNC00Y2MwLTQxZjQtYjM2NS02YzQ2ZmRjMmMyNzYmYW1wO2NvbnN1bXB0aW9uSWQ9W0NPTlNVTVBUSU9OSURdPC9UcmFja2luZz48VHJhY2tpbmcgZXZlbnQ9Im1pZHBvaW50Ij5odHRwczovL3RlcnMudXMtZWFzdC0xLmFpdi1kZWxpdmVyeS5uZXQvdjEvUmVwb3J0RXZlbnQ/c2hvcnRlbmVkPXRydWUmYW1wO2RhdGE9eW9kYS12b2QlM0ElM0ExNzllOTg4ZS1kZjhiLTQwZjUtYTA3Mi03ODUwZTA4YjdmY2YlM0ElM0FkYjQ3ZTlmZC01OWRhLTRmY2UtOTc2NS02NzMyODMyZGU4ZWYmYW1wO2NvbnN1bXB0aW9uSWQ9W0NPTlNVTVBUSU9OSURdPC9UcmFja2luZz48VHJhY2tpbmcgZXZlbnQ9InRoaXJkUXVhcnRpbGUiPmh0dHBzOi8vdGVycy51cy1lYXN0LTEuYWl2LWRlbGl2ZXJ5Lm5ldC92MS9SZXBvcnRFdmVudD9zaG9ydGVuZWQ9dHJ1ZSZhbXA7ZGF0YT15b2RhLXZvZCUzQSUzQTE3OWU5ODhlLWRmOGItNDBmNS1hMDcyLTc4NTBlMDhiN2ZjZiUzQSUzQTM1YzhjOGNkLTgyMGItNDEwNC1iNThiLWM3MjIwNjg4OGVhYyZhbXA7Y29uc3VtcHRpb25JZD1bQ09OU1VNUFRJT05JRF08L1RyYWNraW5nPjxUcmFja2luZyBldmVudD0ibXV0ZSI+aHR0cHM6Ly90ZXJzLnVzLWVhc3QtMS5haXYtZGVsaXZlcnkubmV0L3YxL1JlcG9ydEV2ZW50P3Nob3J0ZW5lZD10cnVlJmFtcDtkYXRhPXlvZGEtdm9kJTNBJTNBMTc5ZTk4OGUtZGY4Yi00MGY1LWEwNzItNzg1MGUwOGI3ZmNmJTNBJTNBMjQ5MDI1ZDctNjNlMC00MmEzLTk5OGUtMzA1Yjc2ZmExOTBjJmFtcDtjb25zdW1wdGlvbklkPVtDT05TVU1QVElPTklEXTwvVHJhY2tpbmc+PFRyYWNraW5nIGV2ZW50PSJ1bm11dGUiPmh0dHBzOi8vdGVycy51cy1lYXN0LTEuYWl2LWRlbGl2ZXJ5Lm5ldC92MS9SZXBvcnRFdmVudD9zaG9ydGVuZWQ9dHJ1ZSZhbXA7ZGF0YT15b2RhLXZvZCUzQSUzQTE3OWU5ODhlLWRmOGItNDBmNS1hMDcyLTc4NTBlMDhiN2ZjZiUzQSUzQTVkNjYyZWVkLWY5MTktNGMwNC04Y2FiLWNkNGZkNGJkODI4YSZhbXA7Y29uc3VtcHRpb25JZD1bQ09OU1VNUFRJT05JRF08L1RyYWNraW5nPjxUcmFja2luZyBldmVudD0iZXhwYW5kIj5odHRwczovL3RlcnMudXMtZWFzdC0xLmFpdi1kZWxpdmVyeS5uZXQvdjEvUmVwb3J0RXZlbnQ/c2hvcnRlbmVkPXRydWUmYW1wO2RhdGE9eW9kYS12b2QlM0ElM0ExNzllOTg4ZS1kZjhiLTQwZjUtYTA3Mi03ODUwZTA4YjdmY2YlM0ElM0FkMDgwNTY0MC01MzRiLTRjZGItODQ2YS1jMTAyNzYzYWRkNWUmYW1wO2NvbnN1bXB0aW9uSWQ9W0NPTlNVTVBUSU9OSURdPC9UcmFja2luZz48VHJhY2tpbmcgZXZlbnQ9InBhdXNlIj5odHRwczovL3RlcnMudXMtZWFzdC0xLmFpdi1kZWxpdmVyeS5uZXQvdjEvUmVwb3J0RXZlbnQ/c2hvcnRlbmVkPXRydWUmYW1wO2RhdGE9eW9kYS12b2QlM0ElM0ExNzllOTg4ZS1kZjhiLTQwZjUtYTA3Mi03ODUwZTA4YjdmY2YlM0ElM0FkNzhkODNhMi00ODg0LTQ0YmQtYWRlMi1kOGQ3MTljNDYzNTImYW1wO2NvbnN1bXB0aW9uSWQ9W0NPTlNVTVBUSU9OSURdPC9UcmFja2luZz48VHJhY2tpbmcgZXZlbnQ9InJlc3VtZSI+aHR0cHM6Ly90ZXJzLnVzLWVhc3QtMS5haXYtZGVsaXZlcnkubmV0L3YxL1JlcG9ydEV2ZW50P3Nob3J0ZW5lZD10cnVlJmFtcDtkYXRhPXlvZGEtdm9kJTNBJTNBMTc5ZTk4OGUtZGY4Yi00MGY1LWEwNzItNzg1MGUwOGI3ZmNmJTNBJTNBZWQyMWJjYzgtYzZiNy00NWFjLWE2ZGUtOTk4ZTc4NzNhODUzJmFtcDtjb25zdW1wdGlvbklkPVtDT05TVU1QVElPTklEXTwvVHJhY2tpbmc+PFRyYWNraW5nIGV2ZW50PSJyZXdpbmQiPmh0dHBzOi8vdGVycy51cy1lYXN0LTEuYWl2LWRlbGl2ZXJ5Lm5ldC92MS9SZXBvcnRFdmVudD9zaG9ydGVuZWQ9dHJ1ZSZhbXA7ZGF0YT15b2RhLXZvZCUzQSUzQTE3OWU5ODhlLWRmOGItNDBmNS1hMDcyLTc4NTBlMDhiN2ZjZiUzQSUzQThiNGE4NTdiLTUyOGQtNDUxYi1iZDEwLTRmNGYxMzE2OTRmMiZhbXA7Y29uc3VtcHRpb25JZD1bQ09OU1VNUFRJT05JRF08L1RyYWNraW5nPjxUcmFja2luZyBldmVudD0iYWNjZXB0SW52aXRhdGlvbiI+aHR0cHM6Ly90ZXJzLnVzLWVhc3QtMS5haXYtZGVsaXZlcnkubmV0L3YxL1JlcG9ydEV2ZW50P3Nob3J0ZW5lZD10cnVlJmFtcDtkYXRhPXlvZGEtdm9kJTNBJTNBMTc5ZTk4OGUtZGY4Yi00MGY1LWEwNzItNzg1MGUwOGI3ZmNmJTNBJTNBNGQwOGYwZWYtYTY2Mi00NzdiLWEwOWItYzZkMTQ4Y2UwMDAyJmFtcDtjb25zdW1wdGlvbklkPVtDT05TVU1QVElPTklEXTwvVHJhY2tpbmc+PFRyYWNraW5nIGV2ZW50PSJjbG9zZSI+aHR0cHM6Ly90ZXJzLnVzLWVhc3QtMS5haXYtZGVsaXZlcnkubmV0L3YxL1JlcG9ydEV2ZW50P3Nob3J0ZW5lZD10cnVlJmFtcDtkYXRhPXlvZGEtdm9kJTNBJTNBMTc5ZTk4OGUtZGY4Yi00MGY1LWEwNzItNzg1MGUwOGI3ZmNmJTNBJTNBZmUzYWJmM2QtN2Y2NS00NDA0LThjZjctYjFmMThhMGY5NDAzJmFtcDtjb25zdW1wdGlvbklkPVtDT05TVU1QVElPTklEXTwvVHJhY2tpbmc+PFRyYWNraW5nIGV2ZW50PSJza2lwIj5odHRwczovL3RlcnMudXMtZWFzdC0xLmFpdi1kZWxpdmVyeS5uZXQvdjEvUmVwb3J0RXZlbnQ/c2hvcnRlbmVkPXRydWUmYW1wO2RhdGE9eW9kYS12b2QlM0ElM0ExNzllOTg4ZS1kZjhiLTQwZjUtYTA3Mi03ODUwZTA4YjdmY2YlM0ElM0FlNjU1MjAzNy1kMTAzLTQxNmUtYmJjZS1iZDU4Y2NkYjcwNGYmYW1wO2NvbnN1bXB0aW9uSWQ9W0NPTlNVTVBUSU9OSURdPC9UcmFja2luZz48L1RyYWNraW5nRXZlbnRzPjxWaWRlb0NsaWNrcz48Q2xpY2tUcmFja2luZz5odHRwczovL3RlcnMudXMtZWFzdC0xLmFpdi1kZWxpdmVyeS5uZXQvdjEvUmVwb3J0RXZlbnQ/c2hvcnRlbmVkPXRydWUmYW1wO2RhdGE9eW9kYS12b2QlM0ElM0ExNzllOTg4ZS1kZjhiLTQwZjUtYTA3Mi03ODUwZTA4YjdmY2YlM0ElM0FiZjAzZmFlOC05YTM1LTQ4ZTgtYjQxNS1hZDQwYzRiZGE1NDUmYW1wO2NvbnN1bXB0aW9uSWQ9W0NPTlNVTVBUSU9OSURdPC9DbGlja1RyYWNraW5nPjxDdXN0b21DbGljayBpZD0id2F0Y2hsaXN0Ij5odHRwczovL3RlcnMudXMtZWFzdC0xLmFpdi1kZWxpdmVyeS5uZXQvdjEvUmVwb3J0RXZlbnQ/c2hvcnRlbmVkPXRydWUmYW1wO2RhdGE9eW9kYS12b2QlM0ElM0ExNzllOTg4ZS1kZjhiLTQwZjUtYTA3Mi03ODUwZTA4YjdmY2YlM0ElM0FiZjAzZmFlOC05YTM1LTQ4ZTgtYjQxNS1hZDQwYzRiZGE1NDUmYW1wO2NvbnN1bXB0aW9uSWQ9W0NPTlNVTVBUSU9OSURdPC9DdXN0b21DbGljaz48L1ZpZGVvQ2xpY2tzPjxNZWRpYUZpbGVzPjxNZWRpYUZpbGUgZGVsaXZlcnk9InByb2dyZXNzaXZlIiB3aWR0aD0iMCIgYml0cmF0ZT0iMjAwMCIgdHlwZT0idmlkZW8vbXA0IiBoZWlnaHQ9IjAiPjwhW0NEQVRBW2h0dHBzOi8vczMtaWFkLXd3LmNmLnZpZGVvcm9sbHMucm93LmFpdi1jZG4ubmV0L2NjODMvZmZiMS85MjE1LzQ2MGItYjE5Ny0wNTdlOTJmZjRiMTIvOTUxMDU0OTEtYmQ4NC00OGFiLTk2YzUtZjE2OGRjZDRiYTNhX3ZpZGVvXzQ4MHBfMjAwMGticHNfYXVkaW9fYWFjbGNfMTI4a2Jwcy5tcDRdXT48L01lZGlhRmlsZT48TWVkaWFGaWxlIGRlbGl2ZXJ5PSJwcm9ncmVzc2l2ZSIgd2lkdGg9IjAiIGJpdHJhdGU9IjkwMCIgdHlwZT0idmlkZW8vbXA0IiBoZWlnaHQ9IjAiPjwhW0NEQVRBW2h0dHBzOi8vczMtaWFkLXd3LmNmLnZpZGVvcm9sbHMucm93LmFpdi1jZG4ubmV0L2NjODMvZmZiMS85MjE1LzQ2MGItYjE5Ny0wNTdlOTJmZjRiMTIvOTUxMDU0OTEtYmQ4NC00OGFiLTk2YzUtZjE2OGRjZDRiYTNhX3ZpZGVvXzQ4MHBfOTAwa2Jwc19hdWRpb19hYWNsY18xMjhrYnBzLm1wNF1dPjwvTWVkaWFGaWxlPjxNZWRpYUZpbGUgZGVsaXZlcnk9InByb2dyZXNzaXZlIiB3aWR0aD0iMCIgYml0cmF0ZT0iNjAwIiB0eXBlPSJ2aWRlby9tcDQiIGhlaWdodD0iMCI+PCFbQ0RBVEFbaHR0cHM6Ly9zMy1pYWQtd3cuY2YudmlkZW9yb2xscy5yb3cuYWl2LWNkbi5uZXQvY2M4My9mZmIxLzkyMTUvNDYwYi1iMTk3LTA1N2U5MmZmNGIxMi85NTEwNTQ5MS1iZDg0LTQ4YWItOTZjNS1mMTY4ZGNkNGJhM2FfdmlkZW9fNDgwcF82MDBrYnBzX2F1ZGlvX2FhY2xjXzEyOGticHMubXA0XV0+PC9NZWRpYUZpbGU+PE1lZGlhRmlsZSBkZWxpdmVyeT0icHJvZ3Jlc3NpdmUiIHdpZHRoPSIwIiBiaXRyYXRlPSI0MDAwIiB0eXBlPSJ2aWRlby9tcDQiIGhlaWdodD0iMCI+PCFbQ0RBVEFbaHR0cHM6Ly9zMy1pYWQtd3cuY2YudmlkZW9yb2xscy5yb3cuYWl2LWNkbi5uZXQvY2M4My9mZmIxLzkyMTUvNDYwYi1iMTk3LTA1N2U5MmZmNGIxMi85NTEwNTQ5MS1iZDg0LTQ4YWItOTZjNS1mMTY4ZGNkNGJhM2FfdmlkZW9fNzIwcF80MDAwa2Jwc19hdWRpb19hYWNsY18xMjhrYnBzLm1wNF1dPjwvTWVkaWFGaWxlPjxNZWRpYUZpbGUgZGVsaXZlcnk9InByb2dyZXNzaXZlIiB3aWR0aD0iMCIgYml0cmF0ZT0iMTM1MCIgdHlwZT0idmlkZW8vbXA0IiBoZWlnaHQ9IjAiPjwhW0NEQVRBW2h0dHBzOi8vczMtaWFkLXd3LmNmLnZpZGVvcm9sbHMucm93LmFpdi1jZG4ubmV0L2NjODMvZmZiMS85MjE1LzQ2MGItYjE5Ny0wNTdlOTJmZjRiMTIvOTUxMDU0OTEtYmQ4NC00OGFiLTk2YzUtZjE2OGRjZDRiYTNhX3ZpZGVvXzQ4MHBfMTM1MGticHNfYXVkaW9fYWFjbGNfMTI4a2Jwcy5tcDRdXT48L01lZGlhRmlsZT48TWVkaWFGaWxlIGRlbGl2ZXJ5PSJwcm9ncmVzc2l2ZSIgd2lkdGg9IjAiIGJpdHJhdGU9IjMwMCIgdHlwZT0idmlkZW8vbXA0IiBoZWlnaHQ9IjAiPjwhW0NEQVRBW2h0dHBzOi8vczMtaWFkLXd3LmNmLnZpZGVvcm9sbHMucm93LmFpdi1jZG4ubmV0L2NjODMvZmZiMS85MjE1LzQ2MGItYjE5Ny0wNTdlOTJmZjRiMTIvOTUxMDU0OTEtYmQ4NC00OGFiLTk2YzUtZjE2OGRjZDRiYTNhX3ZpZGVvXzMzNnBfMzAwa2Jwc19hdWRpb19hYWNsY18xMjhrYnBzLm1wNF1dPjwvTWVkaWFGaWxlPjxNZWRpYUZpbGUgZGVsaXZlcnk9InByb2dyZXNzaXZlIiB3aWR0aD0iMCIgYml0cmF0ZT0iMjAwIiB0eXBlPSJ2aWRlby9tcDQiIGhlaWdodD0iMCI+PCFbQ0RBVEFbaHR0cHM6Ly9zMy1pYWQtd3cuY2YudmlkZW9yb2xscy5yb3cuYWl2LWNkbi5uZXQvY2M4My9mZmIxLzkyMTUvNDYwYi1iMTk3LTA1N2U5MmZmNGIxMi85NTEwNTQ5MS1iZDg0LTQ4YWItOTZjNS1mMTY4ZGNkNGJhM2FfdmlkZW9fMzM2cF8yMDBrYnBzX2F1ZGlvX2FhY2xjXzEyOGticHMubXA0XV0+PC9NZWRpYUZpbGU+PE1lZGlhRmlsZSBkZWxpdmVyeT0icHJvZ3Jlc3NpdmUiIHdpZHRoPSIwIiBiaXRyYXRlPSIxMDAwMCIgdHlwZT0idmlkZW8vbXA0IiBoZWlnaHQ9IjAiPjwhW0NEQVRBW2h0dHBzOi8vczMtaWFkLXd3LmNmLnZpZGVvcm9sbHMucm93LmFpdi1jZG4ubmV0L2NjODMvZmZiMS85MjE1LzQ2MGItYjE5Ny0wNTdlOTJmZjRiMTIvOTUxMDU0OTEtYmQ4NC00OGFiLTk2YzUtZjE2OGRjZDRiYTNhX3ZpZGVvXzEwODBwXzEwTWJwc19hdWRpb19hYWNsY18xMjhrYnBzLm1wNF1dPjwvTWVkaWFGaWxlPjxNZWRpYUZpbGUgZGVsaXZlcnk9InByb2dyZXNzaXZlIiB3aWR0aD0iMCIgYml0cmF0ZT0iNDUwIiB0eXBlPSJ2aWRlby9tcDQiIGhlaWdodD0iMCI+PCFbQ0RBVEFbaHR0cHM6Ly9zMy1pYWQtd3cuY2YudmlkZW9yb2xscy5yb3cuYWl2LWNkbi5uZXQvY2M4My9mZmIxLzkyMTUvNDYwYi1iMTk3LTA1N2U5MmZmNGIxMi85NTEwNTQ5MS1iZDg0LTQ4YWItOTZjNS1mMTY4ZGNkNGJhM2FfdmlkZW9fMzM2cF80NTBrYnBzX2F1ZGlvX2FhY2xjXzEyOGticHMubXA0XV0+PC9NZWRpYUZpbGU+PE1lZGlhRmlsZSBkZWxpdmVyeT0icHJvZ3Jlc3NpdmUiIHdpZHRoPSIwIiBiaXRyYXRlPSI2MDAwIiB0eXBlPSJ2aWRlby9tcDQiIGhlaWdodD0iMCI+PCFbQ0RBVEFbaHR0cHM6Ly9zMy1pYWQtd3cuY2YudmlkZW9yb2xscy5yb3cuYWl2LWNkbi5uZXQvY2M4My9mZmIxLzkyMTUvNDYwYi1iMTk3LTA1N2U5MmZmNGIxMi85NTEwNTQ5MS1iZDg0LTQ4YWItOTZjNS1mMTY4ZGNkNGJhM2FfdmlkZW9fNzIwcF82MDAwa2Jwc19hdWRpb19hYWNsY18xMjhrYnBzLm1wNF1dPjwvTWVkaWFGaWxlPjxNZWRpYUZpbGUgZGVsaXZlcnk9InByb2dyZXNzaXZlIiB3aWR0aD0iMCIgYml0cmF0ZT0iMTUwIiB0eXBlPSJ2aWRlby9tcDQiIGhlaWdodD0iMCI+PCFbQ0RBVEFbaHR0cHM6Ly9zMy1pYWQtd3cuY2YudmlkZW9yb2xscy5yb3cuYWl2LWNkbi5uZXQvY2M4My9mZmIxLzkyMTUvNDYwYi1iMTk3LTA1N2U5MmZmNGIxMi85NTEwNTQ5MS1iZDg0LTQ4YWItOTZjNS1mMTY4ZGNkNGJhM2FfdmlkZW9fMzM2cF8xNTBrYnBzX2F1ZGlvX2FhY2xjXzEyOGticHMubXA0XV0+PC9NZWRpYUZpbGU+PE1lZGlhRmlsZSBkZWxpdmVyeT0icHJvZ3Jlc3NpdmUiIHdpZHRoPSIwIiBiaXRyYXRlPSIyNTAwIiB0eXBlPSJ2aWRlby9tcDQiIGhlaWdodD0iMCI+PCFbQ0RBVEFbaHR0cHM6Ly9zMy1pYWQtd3cuY2YudmlkZW9yb2xscy5yb3cuYWl2LWNkbi5uZXQvY2M4My9mZmIxLzkyMTUvNDYwYi1iMTk3LTA1N2U5MmZmNGIxMi85NTEwNTQ5MS1iZDg0LTQ4YWItOTZjNS1mMTY4ZGNkNGJhM2FfdmlkZW9fNzIwcF8yNTAwa2Jwc19hdWRpb19hYWNsY18xMjhrYnBzLm1wNF1dPjwvTWVkaWFGaWxlPjwvTWVkaWFGaWxlcz48L0xpbmVhcj48L0NyZWF0aXZlPjwvQ3JlYXRpdmVzPjxFeHRlbnNpb25zPjxFeHRlbnNpb24gdHlwZT0ic2tpcHBhYmxlIj48U2tpcE9mZnNldCBzaG93VGltZXI9ImZhbHNlIj4wMDowMDowMDwvU2tpcE9mZnNldD48TWluQWRMZW5ndGg+MDA6MDA6MDA8L01pbkFkTGVuZ3RoPjwvRXh0ZW5zaW9uPjxFeHRlbnNpb24gdHlwZT0id2F0Y2hsaXN0Ii8+PC9FeHRlbnNpb25zPjwvSW5MaW5lPjwvQWQ+PC9WQVNUPjwvdm1hcDpWQVNUQWREYXRhPjwvdm1hcDpBZFNvdXJjZT48dm1hcDpUcmFja2luZ0V2ZW50cy8+PC92bWFwOkFkQnJlYWs+PC92bWFwOlZNQVA+",
+    "format": "VMAP_VAST"
+  },
+  "errorsByResource": {
+    "XRayMetadata": {
+      "errorCode": "PRS.Dependency",
+      "message": "Cannot complete request.",
+      "type": "PRSDependencyException"
+    }
+  },
+  "forcedNarratives": [
+    {
+      "displayName": "Deutsch forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "de-de",
+      "subtype": "dialog",
+      "timedTextTrackId": "de-de_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/e681/bbb9/3af7/4cbd-9b8d-4a1a4b1639da/f724df89-f55a-4162-85d6-a16519b434c5.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "English forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "en-us",
+      "subtype": "dialog",
+      "timedTextTrackId": "en-us_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/3f9e/f508/7822/4689-84df-4ba5508054ad/8b84ba94-228b-425e-a1a7-a47e2a4e30e4.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Español (España) forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "es-es",
+      "subtype": "dialog",
+      "timedTextTrackId": "es-es_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/dda4/75f8/2a02/4948-a14b-04c01c57b9e1/6e539387-ceb3-48b4-a311-4eb04838da3a.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Español (Latinoamérica) forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "es-419",
+      "subtype": "dialog",
+      "timedTextTrackId": "es-419_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/09af/0fa0/f9f6/4a3b-bf8b-70d7eb962048/3604b937-bea6-4f69-977a-fc3b45396c6b.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Français forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "fr-fr",
+      "subtype": "dialog",
+      "timedTextTrackId": "fr-fr_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/3f06/35f6/9fd3/4239-afe7-697c65dc3815/3f85f757-33d1-46b0-8e48-15341be0713e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Italiano forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "it-it",
+      "subtype": "dialog",
+      "timedTextTrackId": "it-it_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/9188/1e93/d22f/4b9e-8658-d85b448044a8/e08af0e6-b4cf-48a0-ac61-a60778a5c62e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Magyar forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "hu-hu",
+      "subtype": "dialog",
+      "timedTextTrackId": "hu-hu_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/7b9e/4a70/f887/4cfc-83c9-0d07f48e40af/cda63d1d-c3b9-4b37-a99a-af65a6c98235.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Polski forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "pl-pl",
+      "subtype": "dialog",
+      "timedTextTrackId": "pl-pl_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/5bd9/5c9c/3bb5/45ec-893d-ce0ac69f0b52/b502c671-c381-4d29-9fe8-da993bb71754.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Português forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "pt-br",
+      "subtype": "dialog",
+      "timedTextTrackId": "pt-br_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/538c/a4fe/dcb3/4ff6-870e-197883152d78/82aed719-65bf-42db-9109-81a02d908fdf.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Čeština forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "cs-cz",
+      "subtype": "dialog",
+      "timedTextTrackId": "cs-cz_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/50b0/2457/4fe2/4ce5-abe1-68a4b7feb039/00adc3c5-72c9-4995-91c2-aeda78a77ed7.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "日本語 forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ja-jp",
+      "subtype": "dialog",
+      "timedTextTrackId": "ja-jp_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/a543/46e7/bab7/423f-9ca5-0c07cdaf50d8/c4e0ed6a-45b5-48c7-a430-9f719a3fd959.dfxp",
+      "videoMaterialType": "Feature"
+    }
+  ],
+  "playbackSettings": {
+    "caching": {
+      "timeToLiveMillis": 7200000
+    },
+    "callback": {
+      "delayMillis": 7200000,
+      "url": "https://atv-ext.amazon.com/cdp/playback/RefreshPlaybackSettings?refreshToken=T-MinConf-10-bufStart-12-bufResume-12-QualityRampUp-Slower--Legacy--GPS--4719"
+    },
+    "formatVersion": "1.0.0",
+    "playbackSettings": "eyJiYXNlIjp7InNjaGVkdWxlciI6eyJ1cGdyYWRlT2Zmc2V0RnJhZ21lbnRzIjoyLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb1RpbWVvdXRGYWN0b3JHcmFwaCI6W1szMCwyLjVdLFs0MCwyLjhdLFs2MCwzXSxbOTAsMy44XV0sIm1heEZ1dHVyZURvd25sb2FkRnJhZ21lbnRzIjozLCJtaW5Db25maWRlbmNlTGV2ZWxTdW0iOjExLCJ1cGdyYWRlRW1wdHlCdWZmZXJTa2lwQ291bnRGcmFnbWVudHMiOjQsIm1heENvbmN1cnJlbnRSZXF1ZXN0cyI6MywiY29uZmlkZW5jZUxldmVsc1RvQ29tcHV0ZSI6OH0sInRpbWVUb0Rvd25sb2FkUHJlZGljdG9yIjp7ImJpdHJhdGVWYXJpYXRpb25XaW5kb3ciOjYsImJ1ZmZlckZ1bGxuZXNzU2Vjb25kc1RvUmV0cnlCYW5kd2lkdGhUaHJvdHRsZUZhY3RvckdyYXBoIjpbWzEwLDAuNzhdLFsxOCwwLjc0XSxbMzIsMC41OV0sWzYyLDAuMzldLFs5MiwwLjE0XSxbMTIyLDAuMV1dLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb0xpdmVCYW5kd2lkdGhUaHJvdHRsZUZhY3RvckdyYXBoIjpbWzEwLDAuNV0sWzIwLDFdXSwiYml0cmF0ZVZhcmlhdGlvbkZhY3RvciI6MSwibWF4Qml0cmF0ZVZhcmlhdGlvblBlbmFsdHlGYWN0b3IiOjAsIm1pbkJpdHJhdGVWYXJpYXRpb25QZW5hbHR5RmFjdG9yIjotMC4yLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb0JhbmR3aWR0aFRocm90dGxlRmFjdG9yR3JhcGgiOltbMTgsMC4xNl0sWzMwLDAuMl0sWzQyLDAuMjVdLFs2MCwwLjMyXSxbODQsMC41XSxbMTA1LDAuNzVdLFsxMjAsMV1dfSwiYmFuZHdpZHRoUHJlZGljdG9yIjp7ImJhbmR3aWR0aEJhc2VsaW5lRmFjdG9yIjowLjEsIm1heEJhbmR3aWR0aEhlYWRyb29tRmFjdG9yIjowLjUsImJhbmR3aWR0aEhlYWRyb29tU3RlcEZhY3RvciI6MC4wNSwibWluU3RhcnRpbmdCYW5kd2lkdGhLYnBzIjowLCJhdmVyYWdlUmVxdWVzdFdpbmRvdyI6MTAsImF2ZXJhZ2VGcmFnbWVudFdpbmRvdyI6NSwic3RkRGV2UmVxdWVzdFdpbmRvdyI6MTAsIm1heFN0YXJ0aW5nQmFuZHdpZHRoS2JwcyI6OTk5OTk5OTksImJ1ZmZlckZ1bGxuZXNzU2Vjb25kc1RvQ29uZmlkZW5jZUZhY3RvckdyYXBoIjpbWzAsMC4wMV0sWzEwLDAuMDVdLFsyMCwwLjJdLFs0MCwwLjA1XV0sIm1pbkJhbmR3aWR0aEhlYWRyb29tRmFjdG9yIjowLjE1LCJzdGREZXZGcmFnbWVudFdpbmRvdyI6MTB9LCJhdXhpbGlhcnlEb3dubG9hZCI6eyJtYXhBdXhpbGlhcnlDb25jdXJyZW50UmVxdWVzdHMiOjk5OSwibWluQnVmZmVyRnVsbG5lc3NUb1N0YXJ0QXV4aWxpYXJ5RG93bmxvYWRTZWNvbmRzIjo3LCJtaW5CdWZmZXJGdWxsbmVzc1RvTWFpbnRhaW5BdXhpbGlhcnlEb3dubG9hZFNlY29uZHMiOi0xLCJtaW5CYW5kd2lkdGhUb1N0YXJ0QXV4aWxpYXJ5RG93bmxvYWRLYnBzIjowLCJtaW5CYW5kd2lkdGhUb01haW50YWluQXV4aWxpYXJ5RG93bmxvYWRLYnBzIjowLCJtYXhBdXhpbGlhcnlSZXF1ZXN0c0NhbmNlbGxhdGlvbiI6M30sImF1ZGlvU2VsZWN0aW9uIjp7ImJ1ZmZlckZ1bGxuZXNzU2Vjb25kc1RvQXVkaW9UcmFuc2ZlclNwZWVkRmFjdG9yIjpbWzUsMC4wNV0sWzEwLDAuMV1dLCJhdWRpb1RyYW5zZmVyU3BlZWRWYXJpYXRpb25GYWN0b3JUb1RyYW5zZmVyU3BlZWRTaGFyZVBhaXIiOltbMCwwLjFdLFsxLjUsMC4yXV0sImF1ZGlvQWRhcHRhdGlvblNldFNlbGVjdGlvbk1vZGUiOiJMRUdBQ1kifSwiYnVmZmVyIjp7ImZvcndhcmRCdWZmZXJMZW5ndGhTZWNvbmRzIjoxMjAsImRlbGF5QmVoaW5kTGl2ZUhlYWRTZWNvbmRzIjoyMCwiYnVmZmVyRnVsbG5lc3NGb3JQbGF5YmFja1Jlc3VtZVNlY29uZHMiOjEyLCJiYWNrd2FyZEJ1ZmZlckxlbmd0aFNlY29uZHMiOjMyLCJidWZmZXJGdWxsbmVzc0ZvclBsYXliYWNrU3RhcnRTZWNvbmRzIjoxMn0sImZpbHRlcnMiOnsiYnVmZmVyRnVsbG5lc3NTZWNvbmRzVG9CaXRyYXRlVXBzaGlmdExpbWl0RmFjdG9yR3JhcGgiOltbMCwwXSxbNC45LDBdLFs1LDFdLFsxNC45LDFdLFsxNSwyXSxbMjkuOSwyXSxbMzAsM10sWzEyMCwzXV0sIm1pbkJpdHJhdGVLYnBzIjowLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb0JpdHJhdGVEb3duc2hpZnRMaW1pdEZhY3RvckdyYXBoIjpbWzAsLTUwXSxbNC45LC01MF0sWzUsLTRdLFsxOS45LC00XSxbMjAsLTNdLFsyOS45LC0zXSxbMzAsLTJdLFs0NC45LC0yXSxbNDUsLTFdLFs1OS45LC0xXSxbNjAsMF0sWzEyMCwwXV0sIm1heEJpdHJhdGVLYnBzIjo5OTk5OTk5OSwibWluQmFzZWxpbmVVcGdyYWRlRGlmZmVyZW5jZVF1YWxpdHlMZXZlbHMiOjJ9LCJsYXRlbmN5UHJlZGljdG9yIjp7ImF2ZXJhZ2VSZXF1ZXN0V2luZG93IjoxMCwiYXZlcmFnZUZyYWdtZW50V2luZG93Ijo1LCJzdGREZXZSZXF1ZXN0V2luZG93IjoxMCwiYnVmZmVyRnVsbG5lc3NTZWNvbmRzVG9Db25maWRlbmNlRmFjdG9yR3JhcGgiOltbMCwwLjAxXSxbMTAsMC4wNV0sWzIwLDAuMl0sWzQwLDAuMDVdXSwic3RkRGV2RnJhZ21lbnRXaW5kb3ciOjEwfSwicmV0ZW50aW9uIjp7InJlcXVlc3RzUGVyRnJhZ21lbnRUb1JldGFpbiI6NCwiZnJhZ21lbnRzVG9SZXRhaW4iOjIwfX19",
+    "settingsId": "T-MinConf-10-bufStart-12-bufResume-12-QualityRampUp-Slower--Legacy--GPS--4719_peiN3WIigsu7n2aSmY6AaI9EbLaq16Z06JTcKl9ubz4="
+  },
+  "playbackUrls": {
+    "audioTracks": [
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "de-de_dialog_0",
+        "displayName": "Deutsch",
+        "index": "0",
+        "languageCode": "de-de",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "en-us_dialog_0",
+        "displayName": "English",
+        "index": "0",
+        "languageCode": "en-us",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "descriptive",
+        "audioTrackId": "en-us_descriptive_0",
+        "displayName": "English [Audio Description]",
+        "index": "0",
+        "languageCode": "en-us",
+        "trackGroupId": "586af2d2-a954-33ed-ab0e-a9b8357897c2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "es-es_dialog_0",
+        "displayName": "Español (España)",
+        "index": "0",
+        "languageCode": "es-es",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "es-419_dialog_0",
+        "displayName": "Español (Latinoamérica)",
+        "index": "0",
+        "languageCode": "es-419",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "fr-fr_dialog_0",
+        "displayName": "Français",
+        "index": "0",
+        "languageCode": "fr-fr",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "it-it_dialog_0",
+        "displayName": "Italiano",
+        "index": "0",
+        "languageCode": "it-it",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "hu-hu_dialog_0",
+        "displayName": "Magyar",
+        "index": "0",
+        "languageCode": "hu-hu",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "pl-pl_dialog_0",
+        "displayName": "Polski",
+        "index": "0",
+        "languageCode": "pl-pl",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "pt-br_dialog_0",
+        "displayName": "Português",
+        "index": "0",
+        "languageCode": "pt-br",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "cs-cz_dialog_0",
+        "displayName": "Čeština",
+        "index": "0",
+        "languageCode": "cs-cz",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "ja-jp_dialog_0",
+        "displayName": "日本語",
+        "index": "0",
+        "languageCode": "ja-jp",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      }
+    ],
+    "cacheKey": "9a5ab9c4-6b16-3176-bb32-0951c2c0d013$197b5dc732c23b99584b2151be83046b",
+    "defaultAudioTrackId": "en-us_dialog_0",
+    "defaultUrlSetId": "18988-4de52c1d-5b01-492d-a4b8-f757ef898fe5",
+    "urlSets": {
+      "18988-38c36c5c-f3fe-4bde-a754-4d1b1cd3987d": {
+        "failover": {
+          "cdn": {
+            "mode": "seamless",
+            "urlSetId": "18988-fa9174c5-9375-4327-b9b6-62a9ad72b3d4"
+          },
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18988-fa9174c5-9375-4327-b9b6-62a9ad72b3d4"
+          }
+        },
+        "urlSetId": "18988-38c36c5c-f3fe-4bde-a754-4d1b1cd3987d",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Akamai",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 3485000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://avodsls3ww-s.akamaihd.net/d/2$IZeBZienYozrcg0DF7WxjQSSUhA~/ondemand/iad_2/5100/b677/df6c/40c5-bea8-c9d654fcd257/aff4b9fe-69e7-46a5-a4fb-b656a0768ea2_en-us_dialog_0.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      },
+      "18988-4de52c1d-5b01-492d-a4b8-f757ef898fe5": {
+        "failover": {
+          "cdn": {
+            "mode": "seamless",
+            "urlSetId": "18988-38c36c5c-f3fe-4bde-a754-4d1b1cd3987d"
+          },
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18988-38c36c5c-f3fe-4bde-a754-4d1b1cd3987d"
+          }
+        },
+        "urlSetId": "18988-4de52c1d-5b01-492d-a4b8-f757ef898fe5",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Cloudfront",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 3485000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://s3-iad-2.cf.smooth.row.aiv-cdn.net/dm/2$Mq9NBjeafMcwYmkeCm9vD4741F8~/5100/b677/df6c/40c5-bea8-c9d654fcd257/aff4b9fe-69e7-46a5-a4fb-b656a0768ea2_en-us_dialog_0.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      },
+      "18988-fa9174c5-9375-4327-b9b6-62a9ad72b3d4": {
+        "failover": {
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18988-4de52c1d-5b01-492d-a4b8-f757ef898fe5"
+          }
+        },
+        "urlSetId": "18988-fa9174c5-9375-4327-b9b6-62a9ad72b3d4",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Limelight",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 3485000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://m-54s3.ll.smooth.row.aiv-cdn.net/d/2$f-SuH4GEW3oW5DbnYUhA_muqEp0~/iad_2/5100/b677/df6c/40c5-bea8-c9d654fcd257/aff4b9fe-69e7-46a5-a4fb-b656a0768ea2_en-us_dialog_0.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      }
+    }
+  },
+  "returnedTitleRendition": {
+    "asin": "B086VWHTZ9",
+    "assetBundleVideoQuality": "SD",
+    "audioQuality": "Stereo",
+    "contentId": "amzn1.dv.vcid.42e33939-590f-46d9-a0f1-e029e39beaa4",
+    "selectedEntitlement": {
+      "consumptionExpiration": "1640886015020",
+      "entitlementType": "PRIME_SUBSCRIPTION",
+      "grantedByCustomerId": "A2HRDZBMQFQZ84"
+    },
+    "titleId": "B086VWHTZ9",
+    "videoMaterialType": "Feature",
+    "videoQuality": "SD",
+    "videoResolution": "480p"
+  },
+  "subtitleUrls": [
+    {
+      "displayName": "Bahasa Melayu",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ms-my",
+      "subtype": "dialog",
+      "timedTextTrackId": "ms-my_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/a092/0cd7/fef3/4ceb-acd5-80d1e2e41d54/e386d42a-18fc-4ea8-b1ba-7b6c4470024e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Dansk",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "da-dk",
+      "subtype": "dialog",
+      "timedTextTrackId": "da-dk_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/9ea8/fc0a/b4c3/4ebe-a35d-9fed7597ec3c/2fc67f82-d886-4aed-8028-1e2159ab72f1.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Deutsch",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "de-de",
+      "subtype": "dialog",
+      "timedTextTrackId": "de-de_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/2b01/704c/c429/494b-bb1a-39533725ad25/6ff4790b-543e-4a14-a1e5-a943cdca343a.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "English [CC]",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "en-us",
+      "subtype": "dialog",
+      "timedTextTrackId": "en-us_sdh_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "sdh",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/15c3/34e1/6a31/47cd-9a5c-d5fe4c128d0e/b9b60e59-8cce-420f-a30e-e96b42868e6d.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Español (España)",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "es-es",
+      "subtype": "dialog",
+      "timedTextTrackId": "es-es_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/2f74/bb2a/72d4/4970-9a27-2c672d42a43f/eef86820-6172-44b6-9bf1-946a676c1b2e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Español (Latinoamérica)",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "es-419",
+      "subtype": "dialog",
+      "timedTextTrackId": "es-419_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/55f8/d89f/29cf/45d4-a407-7d6f150ec80f/79459d00-a712-4890-bce2-982e564daf25.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Filipino",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "fil-ph",
+      "subtype": "dialog",
+      "timedTextTrackId": "fil-ph_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/0910/d965/1e3a/4cfb-8a8d-de3155c1df46/795a8554-36f9-468e-aa5b-756f40a42f79.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Français",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "fr-fr",
+      "subtype": "dialog",
+      "timedTextTrackId": "fr-fr_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/441e/f6be/c272/4299-b04f-c2f4d9789b19/25c95d6a-f5f6-433a-bf27-a477dff660ea.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Indonesia",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "id-id",
+      "subtype": "dialog",
+      "timedTextTrackId": "id-id_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/8dc0/f062/213b/4918-b897-8694d696cfae/c373422d-06a6-417c-a752-39d81e2511ad.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Italiano",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "it-it",
+      "subtype": "dialog",
+      "timedTextTrackId": "it-it_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/d2c0/d3e9/926b/4851-8922-aa388ce0b4f5/78467d50-0540-40b6-9fb8-9b51175f775d.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Magyar",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "hu-hu",
+      "subtype": "dialog",
+      "timedTextTrackId": "hu-hu_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/f87c/0185/e629/4e3e-b846-1debf3970be7/3bc805cb-5bc0-4c04-ba2e-f35ae8abca7e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Nederlands",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "nl-nl",
+      "subtype": "dialog",
+      "timedTextTrackId": "nl-nl_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/dfb7/5cc3/86d0/4005-833c-7115d3ad5dcf/75d7cb09-7aaf-478c-995d-ceb31c792782.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Norsk Bokmål",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "nb-no",
+      "subtype": "dialog",
+      "timedTextTrackId": "nb-no_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/ef9e/791b/2f71/4332-93e5-590fea626e5d/e0abec45-384e-46fb-9f11-1bae0cb4958d.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Polski",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "pl-pl",
+      "subtype": "dialog",
+      "timedTextTrackId": "pl-pl_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/f1d3/4470/a245/4b49-b03e-d2010306aa83/81f2acd0-1451-4304-95a5-f238c2a93731.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Português (Brasil)",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "pt-br",
+      "subtype": "dialog",
+      "timedTextTrackId": "pt-br_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/476b/7ef3/6d84/467c-8062-06b384774add/7b9f1ad7-c554-48c7-b415-84fa8859f462.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Português (Portugal)",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "pt-pt",
+      "subtype": "dialog",
+      "timedTextTrackId": "pt-pt_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/04b1/2960/574f/4b66-8c51-004ef0898b0d/6f88480d-8568-47e9-badb-ca41e2d58af7.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Română",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ro-ro",
+      "subtype": "dialog",
+      "timedTextTrackId": "ro-ro_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/dff8/622b/c6fb/4c79-8da3-86dd0c9c7b6f/5bad96e0-9dea-418c-9a28-550ac40c470e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Suomi",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "fi-fi",
+      "subtype": "dialog",
+      "timedTextTrackId": "fi-fi_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/a6d7/602d/404a/400a-8e7c-efd82ad2749b/4c45ced7-811a-402c-9b66-3de54c50f11e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Svenska",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "sv-se",
+      "subtype": "dialog",
+      "timedTextTrackId": "sv-se_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/392f/ae98/cad5/4d84-a184-ee54e0c55958/ab1a515d-f3e8-4801-8af6-1c00ddb01e76.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Türkçe",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "tr-tr",
+      "subtype": "dialog",
+      "timedTextTrackId": "tr-tr_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/8376/acda/21c6/4127-aff1-e8f6ff83ac62/9b0b6999-5540-4338-a2d7-12f4c0025a02.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Čeština",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "cs-cz",
+      "subtype": "dialog",
+      "timedTextTrackId": "cs-cz_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/845f/692a/d1ce/41c5-93f7-d6d2701b83a4/982bd9f5-770f-493f-a448-515df365954d.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Ελληνικά",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "el-gr",
+      "subtype": "dialog",
+      "timedTextTrackId": "el-gr_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/1195/fac3/a9ab/42e4-b321-c4bde084a205/4b87d883-e7a7-4521-b641-d6b51d462740.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Русский",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ru-ru",
+      "subtype": "dialog",
+      "timedTextTrackId": "ru-ru_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/d121/e2f3/bba1/430a-9890-9324bc2c968a/d2f33a48-1458-44e4-a8a9-ba141cbdba85.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "עברית",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "he-il",
+      "subtype": "dialog",
+      "timedTextTrackId": "he-il_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/84cc/dc17/f4d6/4b88-951c-faffc59824ad/395d0881-b64b-4220-b0e0-29142c5ec148.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "العربية",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ar-eg",
+      "subtype": "dialog",
+      "timedTextTrackId": "ar-eg_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/602c/368e/db24/429f-854b-f6eb99a461c2/55465fde-6411-4436-8ba2-f93d2d5854e9.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "हिन्दी",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "hi-in",
+      "subtype": "dialog",
+      "timedTextTrackId": "hi-in_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/2cc3/5f09/9534/4f9f-9cc9-4e7b53a15269/edea8960-919c-4bc6-aa38-d3e73447b8e5.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "தமிழ்",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ta-in",
+      "subtype": "dialog",
+      "timedTextTrackId": "ta-in_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/ef8f/a83d/9180/4ac2-a60e-d922a504e936/50a1ceb3-bcd0-4c79-b197-554227a0d7f8.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "తెలుగు",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "te-in",
+      "subtype": "dialog",
+      "timedTextTrackId": "te-in_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/cb25/4c39/1a31/4872-9f71-93e75de22ffb/724ff925-47b1-4766-ad85-0c4be4db689d.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "ไทย",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "th-th",
+      "subtype": "dialog",
+      "timedTextTrackId": "th-th_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/5f15/9137/ad0a/4690-b022-ef864fcfdd83/d05097dd-8ca9-483b-90fa-c0f172dc40e8.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "中文（简体）",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "zh-hans",
+      "subtype": "dialog",
+      "timedTextTrackId": "zh-hans_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/c5fe/83a9/9fc1/456e-aa74-29b306994433/b03e7bbc-78a1-4610-8eac-2eaee665684e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "中文（繁體）",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "zh-hant",
+      "subtype": "dialog",
+      "timedTextTrackId": "zh-hant_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/cd23/e79f/e162/4be8-876a-a6307919a50e/2dd198b2-17eb-4475-8813-daedbe15ab5e.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "日本語",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ja-jp",
+      "subtype": "dialog",
+      "timedTextTrackId": "ja-jp_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/5342/4b01/f0ad/4160-ba35-5fa7502b5661/2b5e78a3-7629-49b5-aeaa-5f34ebdd3691.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "한국어",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "ko-kr",
+      "subtype": "dialog",
+      "timedTextTrackId": "ko-kr_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/43d8/c7b5/0515/4ab8-a948-3b6803cc343c/f9b9a378-1015-4db7-b21e-356a89d04721.dfxp",
+      "videoMaterialType": "Feature"
+    }
+  ],
+  "transitionTimecodes": {
+    "autoPlayTimer": 5000,
+    "outroCreditsStart": 3293000,
+    "skipElements": [
+      {
+        "buttonShowtimeMs": 7000,
+        "elementType": "INTRO",
+        "endTimecodeMs": 231000,
+        "startTimecodeMs": 145000
+      }
+    ]
+  },
+  "trickplayUrls": {
+    "trickplayUrlsCdnSets": [
+      {
+        "cdn": "Cloudfront",
+        "cdnWeightsRank": "1",
+        "trickplayUrlInfoList": [
+          {
+            "resolution": "480",
+            "url": "https://cf-trickplay.aux.pv-cdn.net/fe69/a70c/9a3a/40e0-b18d-0f6893129eca/2b82ab60-b3bb-4bc6-bbaf-50b16643a27c_240w.bif?Expires=1640662815&Signature=GJy8es82Vo-9QLx0VvnpFOvkW1cXyyuX4b9RFG65QoVvqy9vPqIRLwrtmRfzl16AjkNpPeMPWE1vD1sjlIX~W6EEqE8rynDU74K5ThEf5cH3EPbE4FBjgNWukbdZNuum8KZHsB7jd0PDJuOqh1~0qT2r7K3nZJNWrSXiZIVGSHS3P-Ors34tTsv11-eATykjL4solVXTxcgZHtZ0DMOBFgKb~U9tYg~xioF8FJ4j9Wh3UWDlukDD3jMQ6Uu4StZF9yrqtAsQQD7bfFZ7Q5HYcdzGqWPNwHZHLCxJNRIPqk0y2mhG4worfo-yyMxW1EO5krZbmJTseDwjY75la-3yJA__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA"
+          },
+          {
+            "resolution": "720",
+            "url": "https://cf-trickplay.aux.pv-cdn.net/fe69/a70c/9a3a/40e0-b18d-0f6893129eca/835c56c9-6915-481f-9989-e7a39771b0a0_320w.bif?Expires=1640662815&Signature=BV-vcU6BxrWR9YBdxsqwCUR0gfFq6H-Ait0M9U~kXkN9tKc0QauqCc46G8aZU61JvhysKL4H3rGSeNNEIEKwE3DBHNO8XQz~lfCsQvrH74XIMjzdGJEMAylHnhtcyH~NLlI0mXUuRupEoJ4f1ru~rLXgQuwpGq5cTqimbI9eh0Y2YqydJIjBIlXdH2k-~AYgG3J062olO2BqyJNm-jMVTKsVivnnPNuhxjGBF2fNtefTA6Xv6UvvXU4tCTwopZaW7-4YytxqK8PLseKV2FPOkelZIsvph-J1xyybNhHBSczf8LsEyeWB~kLOk1THYEPJGZfbyUE6FYTyna8oTkTb0Q__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA"
+          }
+        ]
+      }
+    ]
+  }
+}

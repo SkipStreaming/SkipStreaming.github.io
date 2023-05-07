@@ -1,0 +1,136 @@
+[
+  {
+    "id": "urn:hbo:video:GXpiHkgQw6rEswgEAAAZE:episode:GXpiHkgA2orEswgEAAAZD",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"17d3-qdwHRDLol46UwnQSAA24ZA\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=ja&r.duration=1370.827759&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGXpiHkgQw6rEswgEAAAZE%2F3%2F1fb701%2F3_single_IOoDvQ_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GXpiHkgQw6rEswgEAAAZE/3/1fb701/3_single_IOoDvQ_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "ja-JP",
+          "defaultAudioSelection": {
+            "language": "ja",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GXpiHkgQw6rEswgEAAAZE/3/1fb701/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GXpiHkgQw6rEswgEAAAZE/3/1fb701/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 1370.827758789,
+          "ratingCode": "TV-MA",
+          "videoId": "GXpiHkgSk76CYMQEAAAax"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "ja-JP",
+          "defaultAudioSelection": {
+            "language": "ja",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GXpiHkgQw6rEswgEAAAZE/3/1fb701/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GXpiHkgQw6rEswgEAAAZE/3/1fb701/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 1370.827758789,
+          "videoId": "GXpiHkgSk76CYMQEAAAax",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 103.979,
+              "end": 200.952,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

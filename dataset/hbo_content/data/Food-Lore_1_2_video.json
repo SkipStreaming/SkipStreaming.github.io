@@ -1,0 +1,161 @@
+[
+  {
+    "id": "urn:hbo:video:GXlgqmQm9LDC3wwEAABdv:episode:GXlZ6LQecsTC3wwEAABV3",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"1d3d-nwYFUgZsqUTsfGFdBxsxaQ\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "LEVEL3"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=vi-VN&f.textLanguage=en-US&r.duration=3260.090088&r.host=https%3A%2F%2Fcmaf.lv3.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGXlgqmQm9LDC3wwEAABdv%2F1%2Fe112c6%2F1_JKEEVw_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GXlgqmQm9LDC3wwEAABdv/1/e112c6/1_JKEEVw_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "vi-VN",
+          "defaultAudioSelection": {
+            "language": "vi-VN",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "vi-VN",
+              "output": "5.1 Surround",
+              "displayName": "Tiếng Việt",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "vi-VN",
+              "output": "5.1 Surround",
+              "displayName": "Tiếng Việt",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "vi-VN",
+              "output": "Stereo",
+              "displayName": "Tiếng Việt",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "vi-VN",
+              "output": "Stereo",
+              "displayName": "Tiếng Việt",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GXlgqmQm9LDC3wwEAABdv/1/e112c6/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GXlgqmQm9LDC3wwEAABdv/1/e112c6/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GXlgqmQm9LDC3wwEAABdv/1/e112c6/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3260.09008789,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "N",
+              "name": "Nudity"
+            },
+            {
+              "code": "SC",
+              "name": "Strong Sexual Content"
+            }
+          ],
+          "videoId": "GXlgqmgeIpDC3wwEAABdy"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "vi-VN",
+          "defaultAudioSelection": {
+            "language": "vi-VN",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "vi-VN",
+              "output": "5.1 Surround",
+              "displayName": "Tiếng Việt",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "vi-VN",
+              "output": "5.1 Surround",
+              "displayName": "Tiếng Việt",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "vi-VN",
+              "output": "Stereo",
+              "displayName": "Tiếng Việt",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "vi-VN",
+              "output": "Stereo",
+              "displayName": "Tiếng Việt",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GXlgqmQm9LDC3wwEAABdv/1/e112c6/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GXlgqmQm9LDC3wwEAABdv/1/e112c6/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GXlgqmQm9LDC3wwEAABdv/1/e112c6/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3260.09008789,
+          "videoId": "GXlgqmgeIpDC3wwEAABdy"
+        }
+      ]
+    }
+  }
+]

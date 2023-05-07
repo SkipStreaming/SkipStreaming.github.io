@@ -1,0 +1,337 @@
+{
+  "catalogMetadata": {
+    "catalog": {
+      "entityType": "TV Show",
+      "episodeNumber": 5,
+      "id": "amzn1.dv.gti.7cb78fcb-1475-112a-66d0-9cf8af06fd86",
+      "regulatoryRating": "tv-g",
+      "runtimeSeconds": 1600,
+      "synopsis": "Marta confesses to Javi that something happened with Doctor Frutos. Javi thinks that Marta is a brat and she isn´t capable of maintaining a normal relationship. To prove him wrong, Marta accepts a challenge: to live the most routinely life possible. For a couple of days, of course.",
+      "title": "Routines",
+      "type": "EPISODE",
+      "version": "1.0"
+    },
+    "family": {
+      "tvAncestors": [
+        {
+          "catalog": {
+            "id": "amzn1.dv.gti.16b78f61-d08b-4395-d298-3787d9ebc622",
+            "seasonNumber": 2,
+            "title": "Little Coincidences - Season 2",
+            "type": "SEASON",
+            "version": "1.0"
+          },
+          "version": "1"
+        },
+        {
+          "catalog": {
+            "id": "amzn1.dv.gti.84b3872d-14cc-84c5-07fc-e2a3b7cd39ff",
+            "title": "Little Coincidences",
+            "type": "SHOW",
+            "version": "1.0"
+          },
+          "version": "1"
+        }
+      ],
+      "version": "1.0"
+    },
+    "images": {
+      "imageUrls": {
+        "episode": "https://images-na.ssl-images-amazon.com/images/I/81NQO8dBezL._UY500_UX667_PJPrime-Sash-Extra-Large-2017,TopLeft,0,0_UY500_RI_.jpg",
+        "hero": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/da1dd27e1a1de7f709e6996c8119afcd858c590fd1f83ea3bdc03fda8857f9c0._RI_.jpg",
+        "title": "https://images-na.ssl-images-amazon.com/images/I/81Py0LAH6mL._UY500_UX667_PJPrime-Sash-Extra-Large-2017,TopLeft,0,0_UY500_RI_.jpg"
+      },
+      "version": "1.0"
+    },
+    "playback": {
+      "accessControls": {
+        "pinLength": 5,
+        "restrictions": []
+      },
+      "audioTracks": [
+        {
+          "displayName": "Italiano",
+          "id": "it_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "it",
+          "type": "dialog"
+        },
+        {
+          "displayName": "Español",
+          "id": "es_dialog_0",
+          "isOriginalLanguage": false,
+          "language": "es",
+          "type": "dialog"
+        }
+      ],
+      "summary": {
+        "isPlayable": true
+      },
+      "version": "2.0"
+    },
+    "reviews": {
+      "rating": {
+        "count": 58,
+        "value": 4
+      },
+      "version": "1.0"
+    },
+    "version": "1"
+  },
+  "cuepointPlaylist": {
+    "additionalMetadata": {
+      "showCountdownTimer": false
+    }
+  },
+  "errorsByResource": {
+    "XRayMetadata": {
+      "errorCode": "PRS.Dependency",
+      "message": "Cannot complete request.",
+      "type": "PRSDependencyException"
+    }
+  },
+  "forcedNarratives": [
+    {
+      "displayName": "Italiano forced narrative",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "it",
+      "subtype": "dialog",
+      "timedTextTrackId": "it_narrative_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "narrative",
+      "url": "https://dmqdd6hw24ucf.cloudfront.net/294e/2322/6fcb/4332-88cd-e8d02a4ab0a9/fd95a5f4-0931-4c31-83ba-9d2d2e27644a.dfxp",
+      "videoMaterialType": "Feature"
+    }
+  ],
+  "playbackSettings": {
+    "caching": {
+      "timeToLiveMillis": 7200000
+    },
+    "callback": {
+      "delayMillis": 7200000,
+      "url": "https://atv-ext.amazon.com/cdp/playback/RefreshPlaybackSettings?refreshToken=T-MinConf-10-bufStart-12-bufResume-12-QualityRampUp-Slower--Legacy--GPS--4719"
+    },
+    "formatVersion": "1.0.0",
+    "playbackSettings": "eyJiYXNlIjp7InNjaGVkdWxlciI6eyJ1cGdyYWRlT2Zmc2V0RnJhZ21lbnRzIjoyLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb1RpbWVvdXRGYWN0b3JHcmFwaCI6W1szMCwyLjVdLFs0MCwyLjhdLFs2MCwzXSxbOTAsMy44XV0sIm1heEZ1dHVyZURvd25sb2FkRnJhZ21lbnRzIjozLCJtaW5Db25maWRlbmNlTGV2ZWxTdW0iOjExLCJ1cGdyYWRlRW1wdHlCdWZmZXJTa2lwQ291bnRGcmFnbWVudHMiOjQsIm1heENvbmN1cnJlbnRSZXF1ZXN0cyI6MywiY29uZmlkZW5jZUxldmVsc1RvQ29tcHV0ZSI6OH0sInRpbWVUb0Rvd25sb2FkUHJlZGljdG9yIjp7ImJpdHJhdGVWYXJpYXRpb25XaW5kb3ciOjYsImJ1ZmZlckZ1bGxuZXNzU2Vjb25kc1RvUmV0cnlCYW5kd2lkdGhUaHJvdHRsZUZhY3RvckdyYXBoIjpbWzEwLDAuNzhdLFsxOCwwLjc0XSxbMzIsMC41OV0sWzYyLDAuMzldLFs5MiwwLjE0XSxbMTIyLDAuMV1dLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb0xpdmVCYW5kd2lkdGhUaHJvdHRsZUZhY3RvckdyYXBoIjpbWzEwLDAuNV0sWzIwLDFdXSwiYml0cmF0ZVZhcmlhdGlvbkZhY3RvciI6MSwibWF4Qml0cmF0ZVZhcmlhdGlvblBlbmFsdHlGYWN0b3IiOjAsIm1pbkJpdHJhdGVWYXJpYXRpb25QZW5hbHR5RmFjdG9yIjotMC4yLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb0JhbmR3aWR0aFRocm90dGxlRmFjdG9yR3JhcGgiOltbMTgsMC4xNl0sWzMwLDAuMl0sWzQyLDAuMjVdLFs2MCwwLjMyXSxbODQsMC41XSxbMTA1LDAuNzVdLFsxMjAsMV1dfSwiYmFuZHdpZHRoUHJlZGljdG9yIjp7ImJhbmR3aWR0aEJhc2VsaW5lRmFjdG9yIjowLjEsIm1heEJhbmR3aWR0aEhlYWRyb29tRmFjdG9yIjowLjUsImJhbmR3aWR0aEhlYWRyb29tU3RlcEZhY3RvciI6MC4wNSwibWluU3RhcnRpbmdCYW5kd2lkdGhLYnBzIjowLCJhdmVyYWdlUmVxdWVzdFdpbmRvdyI6MTAsImF2ZXJhZ2VGcmFnbWVudFdpbmRvdyI6NSwic3RkRGV2UmVxdWVzdFdpbmRvdyI6MTAsIm1heFN0YXJ0aW5nQmFuZHdpZHRoS2JwcyI6OTk5OTk5OTksImJ1ZmZlckZ1bGxuZXNzU2Vjb25kc1RvQ29uZmlkZW5jZUZhY3RvckdyYXBoIjpbWzAsMC4wMV0sWzEwLDAuMDVdLFsyMCwwLjJdLFs0MCwwLjA1XV0sIm1pbkJhbmR3aWR0aEhlYWRyb29tRmFjdG9yIjowLjE1LCJzdGREZXZGcmFnbWVudFdpbmRvdyI6MTB9LCJhdXhpbGlhcnlEb3dubG9hZCI6eyJtYXhBdXhpbGlhcnlDb25jdXJyZW50UmVxdWVzdHMiOjk5OSwibWluQnVmZmVyRnVsbG5lc3NUb1N0YXJ0QXV4aWxpYXJ5RG93bmxvYWRTZWNvbmRzIjo3LCJtaW5CdWZmZXJGdWxsbmVzc1RvTWFpbnRhaW5BdXhpbGlhcnlEb3dubG9hZFNlY29uZHMiOi0xLCJtaW5CYW5kd2lkdGhUb1N0YXJ0QXV4aWxpYXJ5RG93bmxvYWRLYnBzIjowLCJtaW5CYW5kd2lkdGhUb01haW50YWluQXV4aWxpYXJ5RG93bmxvYWRLYnBzIjowLCJtYXhBdXhpbGlhcnlSZXF1ZXN0c0NhbmNlbGxhdGlvbiI6M30sImF1ZGlvU2VsZWN0aW9uIjp7ImJ1ZmZlckZ1bGxuZXNzU2Vjb25kc1RvQXVkaW9UcmFuc2ZlclNwZWVkRmFjdG9yIjpbWzUsMC4wNV0sWzEwLDAuMV1dLCJhdWRpb1RyYW5zZmVyU3BlZWRWYXJpYXRpb25GYWN0b3JUb1RyYW5zZmVyU3BlZWRTaGFyZVBhaXIiOltbMCwwLjFdLFsxLjUsMC4yXV0sImF1ZGlvQWRhcHRhdGlvblNldFNlbGVjdGlvbk1vZGUiOiJMRUdBQ1kifSwiYnVmZmVyIjp7ImZvcndhcmRCdWZmZXJMZW5ndGhTZWNvbmRzIjoxMjAsImRlbGF5QmVoaW5kTGl2ZUhlYWRTZWNvbmRzIjoyMCwiYnVmZmVyRnVsbG5lc3NGb3JQbGF5YmFja1Jlc3VtZVNlY29uZHMiOjEyLCJiYWNrd2FyZEJ1ZmZlckxlbmd0aFNlY29uZHMiOjMyLCJidWZmZXJGdWxsbmVzc0ZvclBsYXliYWNrU3RhcnRTZWNvbmRzIjoxMn0sImZpbHRlcnMiOnsiYnVmZmVyRnVsbG5lc3NTZWNvbmRzVG9CaXRyYXRlVXBzaGlmdExpbWl0RmFjdG9yR3JhcGgiOltbMCwwXSxbNC45LDBdLFs1LDFdLFsxNC45LDFdLFsxNSwyXSxbMjkuOSwyXSxbMzAsM10sWzEyMCwzXV0sIm1pbkJpdHJhdGVLYnBzIjowLCJidWZmZXJGdWxsbmVzc1NlY29uZHNUb0JpdHJhdGVEb3duc2hpZnRMaW1pdEZhY3RvckdyYXBoIjpbWzAsLTUwXSxbNC45LC01MF0sWzUsLTRdLFsxOS45LC00XSxbMjAsLTNdLFsyOS45LC0zXSxbMzAsLTJdLFs0NC45LC0yXSxbNDUsLTFdLFs1OS45LC0xXSxbNjAsMF0sWzEyMCwwXV0sIm1heEJpdHJhdGVLYnBzIjo5OTk5OTk5OSwibWluQmFzZWxpbmVVcGdyYWRlRGlmZmVyZW5jZVF1YWxpdHlMZXZlbHMiOjJ9LCJsYXRlbmN5UHJlZGljdG9yIjp7ImF2ZXJhZ2VSZXF1ZXN0V2luZG93IjoxMCwiYXZlcmFnZUZyYWdtZW50V2luZG93Ijo1LCJzdGREZXZSZXF1ZXN0V2luZG93IjoxMCwiYnVmZmVyRnVsbG5lc3NTZWNvbmRzVG9Db25maWRlbmNlRmFjdG9yR3JhcGgiOltbMCwwLjAxXSxbMTAsMC4wNV0sWzIwLDAuMl0sWzQwLDAuMDVdXSwic3RkRGV2RnJhZ21lbnRXaW5kb3ciOjEwfSwicmV0ZW50aW9uIjp7InJlcXVlc3RzUGVyRnJhZ21lbnRUb1JldGFpbiI6NCwiZnJhZ21lbnRzVG9SZXRhaW4iOjIwfX19",
+    "settingsId": "T-MinConf-10-bufStart-12-bufResume-12-QualityRampUp-Slower--Legacy--GPS--4719_peiN3WIigsu7n2aSmY6AaI9EbLaq16Z06JTcKl9ubz4="
+  },
+  "playbackUrls": {
+    "audioTracks": [
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "es_dialog_0",
+        "displayName": "Español",
+        "index": "0",
+        "languageCode": "es",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      },
+      {
+        "audioSubtype": "dialog",
+        "audioTrackId": "it_dialog_0",
+        "displayName": "Italiano",
+        "index": "0",
+        "languageCode": "it",
+        "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2"
+      }
+    ],
+    "cacheKey": "88661263-783e-346e-9370-fe9e98855b60$197b5dc732c23b99584b2151be83046b",
+    "defaultAudioTrackId": "es_dialog_0",
+    "defaultUrlSetId": "18986-012321b6-cdec-43c4-8ea1-0f8425b27293",
+    "urlSets": {
+      "18986-012321b6-cdec-43c4-8ea1-0f8425b27293": {
+        "failover": {
+          "cdn": {
+            "mode": "seamless",
+            "urlSetId": "18986-f10d9551-57cd-4387-874a-9488707c270f"
+          },
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18986-f10d9551-57cd-4387-874a-9488707c270f"
+          }
+        },
+        "urlSetId": "18986-012321b6-cdec-43c4-8ea1-0f8425b27293",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Cloudfront",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 1600000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://s3-iad-2.cf.smooth.row.aiv-cdn.net/dm/2$al0E7-mQ0AIJnn7UMGcA_8iHNmo~/48ea/f4fa/d53d/4cfc-94e5-6dd8149f820f/b3b3325d-6993-4131-87fe-0310b94b6a0f_es_dialog_0.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      },
+      "18986-c79e713c-0762-41f9-8c3e-59eab4d19f55": {
+        "failover": {
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18986-012321b6-cdec-43c4-8ea1-0f8425b27293"
+          }
+        },
+        "urlSetId": "18986-c79e713c-0762-41f9-8c3e-59eab4d19f55",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Limelight",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 1600000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://m-8290s3.ll.smooth.row.aiv-cdn.net/d/2$TF2KgKCpBT88uTZirDxvnPYxyC0~/iad_2/48ea/f4fa/d53d/4cfc-94e5-6dd8149f820f/b3b3325d-6993-4131-87fe-0310b94b6a0f_es_dialog_0.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      },
+      "18986-f10d9551-57cd-4387-874a-9488707c270f": {
+        "failover": {
+          "cdn": {
+            "mode": "seamless",
+            "urlSetId": "18986-c79e713c-0762-41f9-8c3e-59eab4d19f55"
+          },
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18986-c79e713c-0762-41f9-8c3e-59eab4d19f55"
+          }
+        },
+        "urlSetId": "18986-f10d9551-57cd-4387-874a-9488707c270f",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Akamai",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 1600000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://avodsls3ww-s.akamaihd.net/d/2$FNyxSdCChnbWTHhQyg1qGLSY_DQ~/ondemand/iad_2/48ea/f4fa/d53d/4cfc-94e5-6dd8149f820f/b3b3325d-6993-4131-87fe-0310b94b6a0f_es_dialog_0.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      }
+    }
+  },
+  "returnedTitleRendition": {
+    "asin": "B08L8B98L8",
+    "assetBundleVideoQuality": "SD",
+    "audioQuality": "Stereo",
+    "contentId": "amzn1.dv.vcid.68748fd8-bfdf-4201-81cb-7f3d97edd6eb",
+    "selectedEntitlement": {
+      "consumptionExpiration": "1640693658186",
+      "entitlementType": "PRIME_SUBSCRIPTION",
+      "grantedByCustomerId": "A2HRDZBMQFQZ84"
+    },
+    "titleId": "B08L8B98L8",
+    "videoMaterialType": "Feature",
+    "videoQuality": "SD",
+    "videoResolution": "480p"
+  },
+  "subtitleUrls": [
+    {
+      "displayName": "English",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "en",
+      "subtype": "dialog",
+      "timedTextTrackId": "en_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/e214/0c83/9f31/45ba-baa7-0d50059ab4ae/6c6723b3-5e45-4acc-bed1-874e7cf07415.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Español [CC]",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "es",
+      "subtype": "dialog",
+      "timedTextTrackId": "es_sdh_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "sdh",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/884e/bc0c/4504/4f91-a7bf-07c671f40729/1b3625a1-df8d-4b88-b369-888967baef85.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Italiano [CC]",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "it",
+      "subtype": "dialog",
+      "timedTextTrackId": "it_sdh_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "sdh",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/b3e5/4571/febb/4ad8-9046-62ba63d2ab2e/0556e3c3-5853-4f13-8993-9aec99aafc7f.dfxp",
+      "videoMaterialType": "Feature"
+    },
+    {
+      "displayName": "Português",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "pt",
+      "subtype": "dialog",
+      "timedTextTrackId": "pt_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/c3d4/8a7a/5ad6/46bf-987f-6ca9cfd41ae7/6ffd3528-ae66-4400-bf6f-e722d344ae12.dfxp",
+      "videoMaterialType": "Feature"
+    }
+  ],
+  "transitionTimecodes": {
+    "autoPlayTimer": 5000,
+    "outroCreditsStart": 1595000,
+    "skipElements": [
+      {
+        "buttonShowtimeMs": 7000,
+        "elementType": "INTRO",
+        "endTimecodeMs": 207000,
+        "startTimecodeMs": 196000
+      }
+    ]
+  },
+  "trickplayUrls": {
+    "trickplayUrlsCdnSets": [
+      {
+        "cdn": "Cloudfront",
+        "cdnWeightsRank": "1",
+        "trickplayUrlInfoList": [
+          {
+            "resolution": "480",
+            "url": "https://cf-trickplay.aux.pv-cdn.net/38dd/96bd/79d9/4d67-9122-325d4806661d/7735a22b-c0aa-49ab-8d70-28263993a204_240w.bif?Expires=1640470458&Signature=reBepgele~bIuOrF32BLJAJQGmRVOx5vus2ChqG80YNy3jfBKgXMM-wtSwCgFBeGqoWDUc-LopM0k94lcArBtfxTxMTuEUKYDMD-TmvbhA1ePHX3BNGOWN-KC081SJvituWNLHWRzzTU-zxicX6NIVGmC7jpSJdP68wwFcwejqDIxGzdC2CfkwFgXOd1gUo~eJOdpyBCPdCMbNzKAE0fM4inF32fOQDHJGILWzTVhc1o-8moiw6IiKUTNTIuuRrYRMYhDKljmIGftUGcnbdxhAMPzZSj9TiBSWOPhKosKveF8QNgUCtqzzujqWBnljjjYctOEM0~IQxzwz7jI7mEAA__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA"
+          },
+          {
+            "resolution": "720",
+            "url": "https://cf-trickplay.aux.pv-cdn.net/38dd/96bd/79d9/4d67-9122-325d4806661d/dd01ec95-c51a-428d-a75e-7c95e178f191_320w.bif?Expires=1640470458&Signature=LJmzqhSTRT-LDdMT2qu0yd0x5ZhwlNCUoSnbpAObPHNR8Jcl~j2sWQE2-KhEWI05z6YWEOpc1giQnsXcBVSEpzCgbCA5Cjb3WHEFWjNqkWWpIh7ibzsb5ZyjHPoZLVbFBcnCKuTbDdaF9Fzi4YVU9XHJf1jZv1SzW6sNne2F9mZEu-ut2AK7XxV0x~U8H2ATmV09OYaEDlSpLxIUkL~ggkppuZCjfivxqnMC2kWIG6zqOZMLJIOlBVCuZZMq6Wh14XA4ndVGQqHjUOW9XHxna-fQmAYdUV8OJHUHR0iDjxZLKUlrncFR7uFVIgV9Cg-u~zEjZUxtgTh6JOzZeN9N4Q__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA"
+          }
+        ]
+      }
+    ]
+  }
+}

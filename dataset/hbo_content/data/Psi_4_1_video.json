@@ -1,0 +1,188 @@
+[
+  {
+    "id": "urn:hbo:video:GX7Q1MA4kuSLDwwEAAASU:episode:GXILeoALdoiMgwgEAAAD2",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"227b-43kpv3882ADtM1PzjEce9g\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "LEVEL3"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=pt-BR&r.duration=2770.934814&r.duration=46.046001&r.host=https%3A%2F%2Fcmaf.lv3.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX7Q1MA4kuSLDwwEAAASU%2F1%2Fa7d93a%2F1_IlwEYw_noanc_1080hi.mpd&r.manifest=videos%2FGX7Sz1AkJrSLDwwEAAAop%2F1%2F51acee%2F1_J4AEZA_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GX7Q1MA4kuSLDwwEAAASU/1/a7d93a/1_IlwEYw_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GX7StkAIKFlaiwgEAAAga",
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "pt-BR",
+          "defaultAudioSelection": {
+            "language": "pt-BR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GX7Q1MA4kuSLDwwEAAASU/1/a7d93a/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GX7Q1MA4kuSLDwwEAAASU/1/a7d93a/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2770.934814453,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            },
+            {
+              "code": "V",
+              "name": "Violence"
+            }
+          ],
+          "videoId": "GX7Q2NwgS4yLDwwEAAAT8"
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "pt-BR",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GX7Sz1AkJrSLDwwEAAAop/1/51acee/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GX7Sz1AkJrSLDwwEAAAop/1/51acee/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 2770.934814453,
+          "duration": 46.046001434,
+          "videoId": "GX7StSQbxkZGpwgEAAAI6",
+          "promoType": "Episodic"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "pt-BR",
+          "defaultAudioSelection": {
+            "language": "pt-BR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "5.1 Surround",
+              "displayName": "Português (Brasil)",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "pt-BR",
+              "output": "Stereo",
+              "displayName": "Português (Brasil)",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GX7Q1MA4kuSLDwwEAAASU/1/a7d93a/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GX7Q1MA4kuSLDwwEAAASU/1/a7d93a/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2770.934814453,
+          "videoId": "GX7Q2NwgS4yLDwwEAAAT8"
+        }
+      ]
+    }
+  }
+]

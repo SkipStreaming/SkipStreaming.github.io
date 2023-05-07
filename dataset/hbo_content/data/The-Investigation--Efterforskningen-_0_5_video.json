@@ -1,0 +1,349 @@
+[
+  {
+    "id": "urn:hbo:video:GYBMGawDbBb1QoQEAAAAa:episode:GYBMGagGKBcJfrQEAAAAV",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"43b4-1T3c0JKEyPI5lgOttx/jXA\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=da-DK&f.textLanguage=en-US&r.duration=53.053001&r.duration=2674.338379&r.duration=40.040001&r.duration=9.009000&r.duration=8.008000&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=1&r.manifest=videos%2FGYDU9bAKnVAeRpgEAAAAQ%2F1%2F93bf5e%2F1_HqUDqg_noanc_1080hi.mpd&r.manifest=videos%2FGYBMGawDbBb1QoQEAAAAa%2F1%2F1b2f3a%2F1_KrUE7A_noanc_1080hi.mpd&r.manifest=videos%2FGYDgI4AFDqqSswgEAAAAK%2F1%2Fa500d3%2F1_J_QEhg_noanc_1080hi.mpd&r.manifest=videos%2FGYBL0iwhXfxCVgQEAAAAO%2F1%2Fe34aca%2F1_LkUFVg_noanc_1080hi.mpd&r.manifest=videos%2FGYBL0iwsOJoYUkAEAAAAO%2F1%2F03af66%2F1_IoMEfA_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBMGawDbBb1QoQEAAAAa/1/1b2f3a/1_KrUE7A_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GYDlvqAM7ZI1SYwEAAABP",
+      "videos": [
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "da-DK",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYDU9bAKnVAeRpgEAAAAQ/1/93bf5e/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYDU9bAKnVAeRpgEAAAAQ/1/93bf5e/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 53.053001403,
+          "videoId": "GYDU9bAr-6sMahQEAAAAU",
+          "promoType": "Re-Cap",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 0,
+              "end": 53.053001403,
+              "label": "ResSkipButtonTitle",
+              "secondaryType": "Re-Cap"
+            }
+          ]
+        },
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "da-DK",
+          "defaultAudioSelection": {
+            "language": "da-DK",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "da-DK",
+              "output": "5.1 Surround",
+              "displayName": "Dansk",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "da-DK",
+              "output": "5.1 Surround",
+              "displayName": "Dansk",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "da-DK",
+              "output": "Stereo",
+              "displayName": "Dansk",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "da-DK",
+              "output": "Stereo",
+              "displayName": "Dansk",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBMGawDbBb1QoQEAAAAa/1/1b2f3a/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBMGawDbBb1QoQEAAAAa/1/1b2f3a/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBMGawDbBb1QoQEAAAAa/1/1b2f3a/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 53.053001403,
+          "duration": 2674.338378906,
+          "ratingCode": "TV-14",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            }
+          ],
+          "videoId": "GYBMGawF5I7CLbQEAAAAS"
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "da-DK",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYDgI4AFDqqSswgEAAAAK/1/a500d3/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYDgI4AFDqqSswgEAAAAK/1/a500d3/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 2727.391380309,
+          "duration": 40.040000915,
+          "videoId": "GYDgIpAMCzJWmwgEAAAAR",
+          "promoType": "Episodic"
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "da-DK",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBL0iwhXfxCVgQEAAAAO/1/e34aca/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBL0iwhXfxCVgQEAAAAO/1/e34aca/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 2767.431381224,
+          "duration": 9.008999824,
+          "videoId": "GYBLnmQEuJUKJwgEAAAAC"
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "da-DK",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBL0iwsOJoYUkAEAAAAO/1/03af66/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBL0iwsOJoYUkAEAAAAO/1/03af66/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 2776.440381048,
+          "duration": 8.008000373,
+          "videoId": "GYBLnmQHaaZHDDwEAAAAD"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "da-DK",
+          "defaultAudioSelection": {
+            "language": "da-DK",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "da-DK",
+              "output": "5.1 Surround",
+              "displayName": "Dansk",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "da-DK",
+              "output": "5.1 Surround",
+              "displayName": "Dansk",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "da-DK",
+              "output": "Stereo",
+              "displayName": "Dansk",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "da-DK",
+              "output": "Stereo",
+              "displayName": "Dansk",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBMGawDbBb1QoQEAAAAa/1/1b2f3a/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBMGawDbBb1QoQEAAAAa/1/1b2f3a/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYBMGawDbBb1QoQEAAAAa/1/1b2f3a/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2674.338378906,
+          "videoId": "GYBMGawF5I7CLbQEAAAAS"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "urn:hbo:video:GX_SgEgr_4ZYotgEAAACg:episode:GX_SgEgV8CJYotgEAAACd",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"247e-S2EAa46x66AazxE7f1/NeA\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AMAZON"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=de&r.duration=7.007000&r.duration=2734.898926&r.host=https%3A%2F%2Fcmaf.cf.us.hbomaxcdn.com&r.keymod=2&r.main=1&r.manifest=videos%2FGYHb1-wv8_7bCwwEAAAAC%2F1%2F36ec1d%2F1_I8UELQ_noanc_1080hi.mpd&r.manifest=videos%2FGX_SgEgr_4ZYotgEAAACg%2F1%2F2ef37b%2F1_JjYEQw_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX_SgEgr_4ZYotgEAAACg/1/2ef37b/1_JjYEQw_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GYHb1-wp7zQPDwgEAAAAC",
+      "videos": [
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "de",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GYHb1-wv8_7bCwwEAAAAC/1/36ec1d/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GYHb1-wv8_7bCwwEAAAAC/1/36ec1d/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 7.006999969,
+          "videoId": "GYHb1-wzFu8PDwwEAAAAD",
+          "promoType": "Promo",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 0,
+              "end": 7.006999969,
+              "label": "ResSkipButtonTitle",
+              "secondaryType": "Promo"
+            }
+          ]
+        },
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "de",
+          "defaultAudioSelection": {
+            "language": "de",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "de",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "de",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "de",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "de",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX_SgEgr_4ZYotgEAAACg/1/2ef37b/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX_SgEgr_4ZYotgEAAACg/1/2ef37b/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 7.006999969,
+          "duration": 2734.898925781,
+          "ratingCode": "TV-MA",
+          "videoId": "GX_SgEg791ZYotgEAAACj",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 10.610999969,
+              "end": 62.763999969,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "de",
+          "defaultAudioSelection": {
+            "language": "de",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "de",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "de",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "de",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "de",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX_SgEgr_4ZYotgEAAACg/1/2ef37b/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX_SgEgr_4ZYotgEAAACg/1/2ef37b/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2734.898925781,
+          "videoId": "GX_SgEg791ZYotgEAAACj",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 10.610999969,
+              "end": 62.763999969,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

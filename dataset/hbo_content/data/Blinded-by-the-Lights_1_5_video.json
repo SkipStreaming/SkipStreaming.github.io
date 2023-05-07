@@ -1,0 +1,230 @@
+[
+  {
+    "id": "urn:hbo:video:GX71AZg64LahuwgEAAAAk:episode:GXKInQATfGpaZlwEAAAAu",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"2a5b-CwVxtP3DmxLxaa93WhTg0Q\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=pl-PL&f.textLanguage=en-US&r.duration=3377.707764&r.duration=32.032001&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX71AZg64LahuwgEAAAAk%2F1%2F4124a1%2F1_JvUE5w_noanc_1080hi.mpd&r.manifest=videos%2FGYZVsyw0L3Z5BwwEAAAA4%2F0%2F27297e%2F0_JTwEdQ_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71AZg64LahuwgEAAAAk/1/4124a1/1_JvUE5w_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GYZVszQeOpsLDMwEAAACi",
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "pl-PL",
+          "defaultAudioSelection": {
+            "language": "pl-PL",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "pl-PL",
+              "output": "5.1 Surround",
+              "displayName": "Polski",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "pl-PL",
+              "output": "5.1 Surround",
+              "displayName": "Polski",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "pl-PL",
+              "output": "Stereo",
+              "displayName": "Polski",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "pl-PL",
+              "output": "Stereo",
+              "displayName": "Polski",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71AZg64LahuwgEAAAAk/1/4124a1/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71AZg64LahuwgEAAAAk/1/4124a1/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71AZg64LahuwgEAAAAk/1/4124a1/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3377.707763671,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            },
+            {
+              "code": "V",
+              "name": "Violence"
+            },
+            {
+              "code": "N",
+              "name": "Nudity"
+            }
+          ],
+          "videoId": "GX71ArQ51uIfDwgEAAAAq",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 702.202,
+              "end": 795.004,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "pl-PL",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYZVsyw0L3Z5BwwEAAAA4/0/27297e/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYZVsyw0L3Z5BwwEAAAA4/0/27297e/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 3377.707763671,
+          "duration": 32.032001495,
+          "videoId": "GYZVsywJeK7q6nwEAAABC",
+          "promoType": "Episodic"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "pl-PL",
+          "defaultAudioSelection": {
+            "language": "pl-PL",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "pl-PL",
+              "output": "5.1 Surround",
+              "displayName": "Polski",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "pl-PL",
+              "output": "5.1 Surround",
+              "displayName": "Polski",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "pl-PL",
+              "output": "Stereo",
+              "displayName": "Polski",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "pl-PL",
+              "output": "Stereo",
+              "displayName": "Polski",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71AZg64LahuwgEAAAAk/1/4124a1/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71AZg64LahuwgEAAAAk/1/4124a1/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71AZg64LahuwgEAAAAk/1/4124a1/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3377.707763671,
+          "videoId": "GX71ArQ51uIfDwgEAAAAq",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 702.202,
+              "end": 795.004,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

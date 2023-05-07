@@ -1,0 +1,249 @@
+[
+  {
+    "id": "urn:hbo:video:GX-JCFAnrxMIdmgEAAAC_:episode:GX-JCFAuO0IuxvgEAAADC",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"2fa0-lhc9CUcUy217Af505PdmFg\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=es-419&f.textLanguage=es-419&r.duration=8.008000&r.duration=1660.575562&r.duration=61.061001&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=1&r.manifest=videos%2FGYAjdJwk8IMIeogEAAAAe%2F1%2F2a010d%2F1_HtsDkA_noanc_1080hi.mpd&r.manifest=videos%2FGX-JCFAnrxMIdmgEAAAC_%2F3%2Fa21e11%2F3_single_JJEEMQ_noanc_1080hi.mpd&r.manifest=videos%2FGYAiL6QAsIY2dFQEAAADL%2F1%2F31ad4c%2F1_JvoEVw_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX-JCFAnrxMIdmgEAAAC_/3/a21e11/3_single_JJEEMQ_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GYAjdMQhOz8IETgEAAAAM",
+      "videos": [
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "es",
+          "defaultAudioSelection": {
+            "language": "es-419",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYAjdJwk8IMIeogEAAAAe/1/2a010d/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYAjdJwk8IMIeogEAAAAe/1/2a010d/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 8.008000373,
+          "videoId": "GYAiLywhnKYCwlQEAAAAC",
+          "promoType": "Promo",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 0,
+              "end": 8.008000373,
+              "label": "ResSkipButtonTitle",
+              "secondaryType": "Promo"
+            }
+          ]
+        },
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "es",
+          "defaultAudioSelection": {
+            "language": "es-419",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "es-419",
+              "output": "5.1 Surround",
+              "displayName": "Español",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "5.1 Surround",
+              "displayName": "Español",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "es-419",
+              "displayName": "Español CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX-JCFAnrxMIdmgEAAAC_/3/a21e11/t/sub/es-419_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX-JCFAnrxMIdmgEAAAC_/3/a21e11/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX-JCFAnrxMIdmgEAAAC_/3/a21e11/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 8.008000373,
+          "duration": 1660.575561523,
+          "ratingCode": "TV-MA",
+          "videoId": "GX-JCFAvvq4uxvgEAAADD"
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "es",
+          "defaultAudioSelection": {
+            "language": "es-419",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYAiL6QAsIY2dFQEAAADL/1/31ad4c/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYAiL6QAsIY2dFQEAAADL/1/31ad4c/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 1668.583561896,
+          "duration": 61.061000823,
+          "videoId": "GYAiLywkxR42dFQEAAADK",
+          "promoType": "Promo"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "es",
+          "defaultAudioSelection": {
+            "language": "es-419",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "es-419",
+              "output": "5.1 Surround",
+              "displayName": "Español",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "5.1 Surround",
+              "displayName": "Español",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "es-419",
+              "displayName": "Español CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX-JCFAnrxMIdmgEAAAC_/3/a21e11/t/sub/es-419_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX-JCFAnrxMIdmgEAAAC_/3/a21e11/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX-JCFAnrxMIdmgEAAAC_/3/a21e11/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 1660.575561523,
+          "videoId": "GX-JCFAvvq4uxvgEAAADD"
+        }
+      ]
+    }
+  }
+]

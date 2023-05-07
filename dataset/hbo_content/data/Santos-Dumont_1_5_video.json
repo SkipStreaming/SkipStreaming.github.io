@@ -1,0 +1,202 @@
+[
+  {
+    "id": "urn:hbo:video:GX71OjgPIwcPDegEAAAD5:episode:GXaoEmAOhT1OfqwEAAAmQ",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"24df-phfbEcbxrBrj2mmNODyvEA\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=fr-FR&r.duration=5.005000&r.duration=3168.165039&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=1&r.manifest=videos%2FGXsL2ogZmBB5VgAEAAABK%2F1%2Fdf3db2%2F1_IZAEFg_noanc_1080hi.mpd&r.manifest=videos%2FGX71OjgPIwcPDegEAAAD5%2F1%2F4cbdd5%2F1_HXsDeA_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71OjgPIwcPDegEAAAD5/1/4cbdd5/1_HXsDeA_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GX72PjANDuCGqwgEAAAXe",
+      "videos": [
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "fr-FR",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GXsL2ogZmBB5VgAEAAABK/1/df3db2/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GXsL2ogZmBB5VgAEAAABK/1/df3db2/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 5.0050001139999996,
+          "videoId": "GXsLxjQV14UfCwgEAAAAf",
+          "promoType": "Miscellaneous"
+        },
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "fr-FR",
+          "defaultAudioSelection": {
+            "language": "fr-FR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "fr-FR",
+              "output": "5.1 Surround",
+              "displayName": "Français",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "fr-FR",
+              "output": "5.1 Surround",
+              "displayName": "Français",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "fr-FR",
+              "output": "Stereo",
+              "displayName": "Français",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "fr-FR",
+              "output": "Stereo",
+              "displayName": "Français",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71OjgPIwcPDegEAAAD5/1/4cbdd5/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71OjgPIwcPDegEAAAD5/1/4cbdd5/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 5.0050001139999996,
+          "duration": 3168.165039062,
+          "ratingCode": "TV-14",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "BN",
+              "name": "Brief Nudity"
+            }
+          ],
+          "videoId": "GX71OjgZkLSGqwgEAAADj",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 14.932000114,
+              "end": 77.74500011399999,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "fr-FR",
+          "defaultAudioSelection": {
+            "language": "fr-FR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "fr-FR",
+              "output": "5.1 Surround",
+              "displayName": "Français",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "fr-FR",
+              "output": "5.1 Surround",
+              "displayName": "Français",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "fr-FR",
+              "output": "Stereo",
+              "displayName": "Français",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "fr-FR",
+              "output": "Stereo",
+              "displayName": "Français",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71OjgPIwcPDegEAAAD5/1/4cbdd5/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71OjgPIwcPDegEAAAD5/1/4cbdd5/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3168.165039062,
+          "videoId": "GX71OjgZkLSGqwgEAAADj",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 14.932000114,
+              "end": 77.74500011399999,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "id": "urn:hbo:video:GX71msQ4XSiGqwgEAAAMo:episode:GXBwC9gd5bYa1vAEAAAWR",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"1b4b-sEECdhXP063DIW22PylUjw\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=id-ID&r.duration=3029.860107&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX71msQ4XSiGqwgEAAAMo%2F1%2F694e9d%2F1_IzkEDQ_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71msQ4XSiGqwgEAAAMo/1/694e9d/1_IzkEDQ_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "id-ID",
+          "defaultAudioSelection": {
+            "language": "id-ID",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "id-ID",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "id-ID",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "id-ID",
+              "output": "Stereo",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "id-ID",
+              "output": "Stereo",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71msQ4XSiGqwgEAAAMo/1/694e9d/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71msQ4XSiGqwgEAAAMo/1/694e9d/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3029.860107421,
+          "ratingCode": "TV-14",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "MV",
+              "name": "Mild Violence"
+            }
+          ],
+          "videoId": "GX71muwpWK8PDwwEAAAM9",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 92.551,
+              "end": 164.624,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "id-ID",
+          "defaultAudioSelection": {
+            "language": "id-ID",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "id-ID",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "id-ID",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "id-ID",
+              "output": "Stereo",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "id-ID",
+              "output": "Stereo",
+              "displayName": "Bahasa Indonesia",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71msQ4XSiGqwgEAAAMo/1/694e9d/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX71msQ4XSiGqwgEAAAMo/1/694e9d/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3029.860107421,
+          "videoId": "GX71muwpWK8PDwwEAAAM9",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 92.551,
+              "end": 164.624,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "urn:hbo:video:GX71OmAeJo7zDwwEAAAAv:episode:GXTdqEwRzYI-dUQEAABVJ",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"2216-YvXZ8MtinJyKdk+5TnHofQ\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AMAZON"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=es-419&r.duration=3204.534668&r.duration=39.039001&r.host=https%3A%2F%2Fcmaf.cf.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX71OmAeJo7zDwwEAAAAv%2F1%2Fa34f46%2F1_KaYEyw_noanc_1080hi.mpd&r.manifest=videos%2FGX72lcQgqrbJnwwEAAABO%2F1%2Fd6cf80%2F1_JCoEjw_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX71OmAeJo7zDwwEAAAAv/1/a34f46/1_KaYEyw_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GX72PjAJ34MPDegEAAAaJ",
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "es-419",
+          "defaultAudioSelection": {
+            "language": "es-419",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX71OmAeJo7zDwwEAAAAv/1/a34f46/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX71OmAeJo7zDwwEAAAAv/1/a34f46/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3204.534667968,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            },
+            {
+              "code": "BN",
+              "name": "Brief Nudity"
+            }
+          ],
+          "videoId": "GX71O8wtvKcPDwwEAAADs"
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "es-419",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX72lcQgqrbJnwwEAAABO/1/d6cf80/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX72lcQgqrbJnwwEAAABO/1/d6cf80/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 3204.534667968,
+          "duration": 39.039001464,
+          "videoId": "GX72OVAc5niGqwgEAAAVa",
+          "promoType": "Episodic"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "es-419",
+          "defaultAudioSelection": {
+            "language": "es-419",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "es-419",
+              "output": "Stereo",
+              "displayName": "Español",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX71OmAeJo7zDwwEAAAAv/1/a34f46/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX71OmAeJo7zDwwEAAAAv/1/a34f46/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3204.534667968,
+          "videoId": "GX71O8wtvKcPDwwEAAADs"
+        }
+      ]
+    }
+  }
+]

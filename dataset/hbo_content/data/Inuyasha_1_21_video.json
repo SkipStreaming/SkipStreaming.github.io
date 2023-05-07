@@ -1,0 +1,192 @@
+[
+  {
+    "id": "urn:hbo:video:GXxYCTACOxsPDwgEAAAqK:episode:GXxYCTACM7sPDwgEAAAqJ",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"2346-KkmP9L5q8JVrs/8/qQYL0Q\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AMAZON"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=ja&f.audioLanguage=ja-JP&r.duration=1437.269165&r.host=https%3A%2F%2Fcmaf.cf.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGXxYCTACOxsPDwgEAAAqK%2F3%2F47a648%2F3_single_JbAEaQ_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.cf.us.hbomaxcdn.com/videos/GXxYCTACOxsPDwgEAAAqK/3/47a648/3_single_JbAEaQ_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "ja-JP",
+          "defaultAudioSelection": {
+            "language": "ja-JP",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a6",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a4",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a7",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a5",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GXxYCTACOxsPDwgEAAAqK/3/47a648/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GXxYCTACOxsPDwgEAAAqK/3/47a648/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 1437.269165039,
+          "ratingCode": "TV-PG",
+          "videoId": "GXxYCTADmrLnDHQEAAAsK"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "ja-JP",
+          "defaultAudioSelection": {
+            "language": "ja-JP",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a6",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a4",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "ja",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a7",
+              "type": "Program"
+            },
+            {
+              "language": "ja-JP",
+              "output": "Stereo",
+              "displayName": "日本語",
+              "trackName": "a5",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GXxYCTACOxsPDwgEAAAqK/3/47a648/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GXxYCTACOxsPDwgEAAAqK/3/47a648/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 1437.269165039,
+          "videoId": "GXxYCTADmrLnDHQEAAAsK",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 1.001,
+              "end": 76.286,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "urn:hbo:video:GX7Q31gFtlcIOwwEAAAWA:episode:GWvycvAol6sNWagEAAACs",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"1733-PPZ0lt8kJ+X6QnmjxU32Og\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=cs-CZ&r.duration=2051.382568&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX7Q31gFtlcIOwwEAAAWA%2F1%2F760930%2F1_IMgEBA_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q31gFtlcIOwwEAAAWA/1/760930/1_IMgEBA_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "cs-CZ",
+          "defaultAudioSelection": {
+            "language": "cs-CZ",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q31gFtlcIOwwEAAAWA/1/760930/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q31gFtlcIOwwEAAAWA/1/760930/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2051.382568359,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            }
+          ],
+          "videoId": "GX7Q5YAdarHJDgQEAAAAT"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "cs-CZ",
+          "defaultAudioSelection": {
+            "language": "cs-CZ",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "cs-CZ",
+              "output": "Stereo",
+              "displayName": "čeština",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q31gFtlcIOwwEAAAWA/1/760930/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q31gFtlcIOwwEAAAWA/1/760930/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2051.382568359,
+          "videoId": "GX7Q5YAdarHJDgQEAAAAT"
+        }
+      ]
+    }
+  }
+]

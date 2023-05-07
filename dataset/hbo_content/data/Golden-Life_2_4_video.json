@@ -1,0 +1,236 @@
+[
+  {
+    "id": "urn:hbo:video:GX7Q54g5LiUi6wwEAAAAW:episode:GW1eFCQlaRZFDwgEAAAN_",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"2bee-+TEUJhkdKrx9YGEdIbI5VA\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=hu-HU&f.textLanguage=en-US&r.duration=3553.383057&r.duration=43.042999&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX7Q54g5LiUi6wwEAAAAW%2F1%2F88075c%2F1_JHYEVQ_noanc_1080hi.mpd&r.manifest=videos%2FGX7Ss5Aoz3yLDwwEAAAj1%2F1%2F74ccb0%2F1_KGoElA_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q54g5LiUi6wwEAAAAW/1/88075c/1_JHYEVQ_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GX7SsagVCw1aiwgEAAAeX",
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "hu-HU",
+          "defaultAudioSelection": {
+            "language": "hu-HU",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "hu-HU",
+              "output": "5.1 Surround",
+              "displayName": "Magyar",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "hu-HU",
+              "output": "5.1 Surround",
+              "displayName": "Magyar",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "hu-HU",
+              "output": "Stereo",
+              "displayName": "Magyar",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "hu-HU",
+              "output": "Stereo",
+              "displayName": "Magyar",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q54g5LiUi6wwEAAAAW/1/88075c/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q54g5LiUi6wwEAAAAW/1/88075c/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q54g5LiUi6wwEAAAAW/1/88075c/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3553.38305664,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            },
+            {
+              "code": "V",
+              "name": "Violence"
+            }
+          ],
+          "videoId": "GX7Sr3QE8j1aiwgEAAAdP",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 54.596,
+              "end": 121.623,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "hu-HU",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Ss5Aoz3yLDwwEAAAj1/1/74ccb0/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Ss5Aoz3yLDwwEAAAj1/1/74ccb0/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Ss5Aoz3yLDwwEAAAj1/1/74ccb0/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 3553.38305664,
+          "duration": 43.042999267,
+          "videoId": "GX7Sr3QGno5GpwgEAAAFm",
+          "promoType": "Episodic"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "hu-HU",
+          "defaultAudioSelection": {
+            "language": "hu-HU",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "hu-HU",
+              "output": "5.1 Surround",
+              "displayName": "Magyar",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "hu-HU",
+              "output": "5.1 Surround",
+              "displayName": "Magyar",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "hu-HU",
+              "output": "Stereo",
+              "displayName": "Magyar",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "hu-HU",
+              "output": "Stereo",
+              "displayName": "Magyar",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q54g5LiUi6wwEAAAAW/1/88075c/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q54g5LiUi6wwEAAAAW/1/88075c/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q54g5LiUi6wwEAAAAW/1/88075c/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3553.38305664,
+          "videoId": "GX7Sr3QE8j1aiwgEAAAdP",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 54.596,
+              "end": 121.623,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

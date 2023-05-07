@@ -1,0 +1,211 @@
+[
+  {
+    "id": "urn:hbo:video:GYGTj-wOFF7OvUwEAAAAq:episode:GYGTj-QByfqpPswEAAAAW",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"27b8-9bNp3v1mMibLUtc6K2GK6g\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=he&f.textLanguage=en-US&r.duration=2418.791260&r.duration=6.006000&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGYGTj-wOFF7OvUwEAAAAq%2F1%2F397a16%2F1_KOoEwQ_noanc_1080hi.mpd&r.manifest=videos%2FGYGX4dQT7h8JfEQEAAABZ%2F1%2Fb931d5%2F1_JGsEcg_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "Playlisted",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGTj-wOFF7OvUwEAAAAq/1/397a16/1_KOoEwQ_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "playlistId": "GYWdGnwAOK6NiiwEAAAAD",
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "he",
+          "defaultAudioSelection": {
+            "language": "he",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "he",
+              "output": "5.1 Surround",
+              "displayName": "עברית‬",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "he",
+              "output": "5.1 Surround",
+              "displayName": "עברית‬",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "he",
+              "output": "Stereo",
+              "displayName": "עברית‬",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "he",
+              "output": "Stereo",
+              "displayName": "עברית‬",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGTj-wOFF7OvUwEAAAAq/1/397a16/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGTj-wOFF7OvUwEAAAAq/1/397a16/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGTj-wOFF7OvUwEAAAAq/1/397a16/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2418.791259765,
+          "ratingCode": "TV-MA",
+          "videoId": "GYGTkAgAlUg2xlgEAAAAr",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 37.78799819946289,
+              "end": 49.132999420166016,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        },
+        {
+          "type": "urn:video:promo",
+          "originalAudioLanguage": "he",
+          "defaultAudioSelection": {
+            "language": "en-US",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "en-US",
+              "output": "Stereo",
+              "displayName": "English",
+              "trackName": "a1",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGX4dQT7h8JfEQEAAABZ/1/b931d5/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGX4dQT7h8JfEQEAAABZ/1/b931d5/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 2418.791259765,
+          "duration": 6.006000041,
+          "videoId": "GYGXucAHjUIi1wgEAAABi"
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "he",
+          "defaultAudioSelection": {
+            "language": "he",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "he",
+              "output": "5.1 Surround",
+              "displayName": "עברית‬",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "he",
+              "output": "5.1 Surround",
+              "displayName": "עברית‬",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "he",
+              "output": "Stereo",
+              "displayName": "עברית‬",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "he",
+              "output": "Stereo",
+              "displayName": "עברית‬",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGTj-wOFF7OvUwEAAAAq/1/397a16/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGTj-wOFF7OvUwEAAAAq/1/397a16/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GYGTj-wOFF7OvUwEAAAAq/1/397a16/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2418.791259765,
+          "videoId": "GYGTkAgAlUg2xlgEAAAAr",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 37.78799819946289,
+              "end": 49.132999420166016,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

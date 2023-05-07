@@ -1,0 +1,253 @@
+{
+  "catalogMetadata": {
+    "catalog": {
+      "entityType": "TV Show",
+      "episodeNumber": 6,
+      "id": "amzn1.dv.gti.1ab5b1f4-f9a0-0e50-caaa-da20c3d5bd38",
+      "regulatoryRating": "NR",
+      "runtimeSeconds": 1299,
+      "synopsis": "With all their cycles synchronized, it’s that time of the month for everyone at the PG. As a result, Pushpavalli has exiled herself from the PG kitchen, much to Vasu’s annoyance. Pushpavalli learns that Nikhil and Swati know each other. After hearing that Nikhil’s mother is unwell, Pushpavalli decides to use it as an excuse to turn up at his house.",
+      "title": "PCOD",
+      "type": "EPISODE",
+      "version": "1.0"
+    },
+    "family": {
+      "tvAncestors": [
+        {
+          "catalog": {
+            "id": "amzn1.dv.gti.dab5b1eb-e02a-6f5e-6ebc-bda4f3783871",
+            "seasonNumber": 1,
+            "title": "Pushpavalli - Season 1 (Tamil)",
+            "type": "SEASON",
+            "version": "1.0"
+          },
+          "version": "1"
+        },
+        {
+          "catalog": {
+            "id": "amzn1.dv.gti.74b5b1de-1774-f20f-629d-185fd8bb0fe7",
+            "title": "Pushpavalli (Tamil)",
+            "type": "SHOW",
+            "version": "1.0"
+          },
+          "version": "1"
+        }
+      ],
+      "version": "1.0"
+    },
+    "images": {
+      "imageUrls": {
+        "episode": "https://images-na.ssl-images-amazon.com/images/I/711AbTcGEeL._UY500_UX667_PJPrime-Sash-Extra-Large-2017,TopLeft,0,0_UY500_RI_.jpg",
+        "title": "https://images-na.ssl-images-amazon.com/images/I/91ZQD47eRML._UY500_UX667_PJPrime-Sash-Extra-Large-2017,TopLeft,0,0_UY500_RI_.jpg"
+      },
+      "version": "1.0"
+    },
+    "playback": {
+      "accessControls": {
+        "pinLength": 5,
+        "restrictions": []
+      },
+      "audioTracks": [
+        {
+          "displayName": "தமிழ்",
+          "isOriginalLanguage": false,
+          "language": "ta_IN",
+          "type": "dialog"
+        }
+      ],
+      "summary": {
+        "isPlayable": true
+      },
+      "version": "2.0"
+    },
+    "reviews": {
+      "rating": {
+        "count": 0,
+        "value": 0
+      },
+      "version": "1.0"
+    },
+    "version": "1"
+  },
+  "cuepointPlaylist": {
+    "additionalMetadata": {
+      "showCountdownTimer": false
+    }
+  },
+  "errorsByResource": {
+    "PlaybackSettings": {
+      "errorCode": "PRS.Dependency",
+      "message": "Cannot complete request.",
+      "type": "PRSDependencyException"
+    },
+    "XRayMetadata": {
+      "errorCode": "PRS.Dependency",
+      "message": "Cannot complete request.",
+      "type": "PRSDependencyException"
+    }
+  },
+  "forcedNarratives": [],
+  "playbackUrls": {
+    "audioTracks": [
+      {
+        "audioSubtype": "dialog",
+        "displayName": "தமிழ்",
+        "index": "0",
+        "languageCode": "ta-in"
+      }
+    ],
+    "cacheKey": "efb032bd-4705-30ec-b2cb-98d1def9c885$b412ed349d61483d054dc6e3fc95b3ff",
+    "defaultUrlSetId": "18988-adf8a3b4-4648-43db-822d-5fefdc0bdd3e",
+    "urlSets": {
+      "18988-5b48b76c-1169-4ed0-94d6-be325be0c020": {
+        "failover": {
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18988-adf8a3b4-4648-43db-822d-5fefdc0bdd3e"
+          }
+        },
+        "urlSetId": "18988-5b48b76c-1169-4ed0-94d6-be325be0c020",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Limelight",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 1299000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://m-959s3.ll.smooth.row.aiv-cdn.net/d/2$K9B1bg3_FtLWHdjvUDkoOzcxSiY~/iad_2/7238/7b23/47c6/4726-9f6f-f8b3de20ea38/0c9bb883-a5c6-4c5e-9038-c1400fd439d9.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      },
+      "18988-adf8a3b4-4648-43db-822d-5fefdc0bdd3e": {
+        "failover": {
+          "cdn": {
+            "mode": "seamless",
+            "urlSetId": "18988-b781872f-26c5-4db6-840a-209d79ace00d"
+          },
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18988-b781872f-26c5-4db6-840a-209d79ace00d"
+          }
+        },
+        "urlSetId": "18988-adf8a3b4-4648-43db-822d-5fefdc0bdd3e",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Cloudfront",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 1299000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://s3-iad-2.cf.smooth.row.aiv-cdn.net/dm/2$03vy3KeSCurvEJKAVn9tBq1y_1o~/7238/7b23/47c6/4726-9f6f-f8b3de20ea38/0c9bb883-a5c6-4c5e-9038-c1400fd439d9.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      },
+      "18988-b781872f-26c5-4db6-840a-209d79ace00d": {
+        "failover": {
+          "cdn": {
+            "mode": "seamless",
+            "urlSetId": "18988-5b48b76c-1169-4ed0-94d6-be325be0c020"
+          },
+          "default": {
+            "mode": "seamless",
+            "urlSetId": "18988-5b48b76c-1169-4ed0-94d6-be325be0c020"
+          }
+        },
+        "urlSetId": "18988-b781872f-26c5-4db6-840a-209d79ace00d",
+        "urls": {
+          "manifest": {
+            "audioFormat": "Stereo",
+            "bitrateAdaption": "CBR",
+            "cdn": "Akamai",
+            "cdnOrigin": "S3_INTERNAL",
+            "compressionStandard": "H264",
+            "contiguityType": "Contiguous",
+            "drm": "PlayReady",
+            "duration": 1299000,
+            "dynamicRange": "None",
+            "encodingVersion": "2",
+            "fragmentRepresentation": "ByteOffsetRange",
+            "frameRate": "Standard",
+            "origin": "s3_iad_2",
+            "streamingTechnology": "SmoothStreaming",
+            "subtitleRepresentation": "NotInManifestNorStream",
+            "url": "https://avodsls3ww-s.akamaihd.net/d/2$GRo_4M8Ai6jDyE2HqxuOMvkzfzA~/ondemand/iad_2/7238/7b23/47c6/4726-9f6f-f8b3de20ea38/0c9bb883-a5c6-4c5e-9038-c1400fd439d9.ism/manifest",
+            "videoQuality": "SD"
+          }
+        }
+      }
+    }
+  },
+  "returnedTitleRendition": {
+    "asin": "B07SZSP74F",
+    "assetBundleVideoQuality": "SD",
+    "audioQuality": "Stereo",
+    "contentId": "amzn1.dv.vcid.de8cab60-8983-4280-8975-f184258eb235",
+    "selectedEntitlement": {
+      "consumptionExpiration": "1640872258442",
+      "entitlementType": "PRIME_SUBSCRIPTION",
+      "grantedByCustomerId": "A2HRDZBMQFQZ84"
+    },
+    "titleId": "B07SZSP74F",
+    "videoMaterialType": "Feature",
+    "videoQuality": "SD",
+    "videoResolution": "480p"
+  },
+  "subtitleUrls": [
+    {
+      "displayName": "English",
+      "format": "DFXP",
+      "index": "0",
+      "languageCode": "en-gb",
+      "subtype": "dialog",
+      "timedTextTrackId": "en-gb_subtitle_dialog_0",
+      "trackGroupId": "29e6f7c7-89a1-32a1-9c12-43802b81b5a2",
+      "type": "subtitle",
+      "url": "https://cf-timedtext.aux.pv-cdn.net/eb46/40e2/4a5d/40fe-8932-23c990b490fe/559f2ca7-aa18-4b0a-baae-77519c5de98b.dfxp",
+      "videoMaterialType": "Feature"
+    }
+  ],
+  "transitionTimecodes": {
+    "autoPlayTimer": 5000,
+    "outroCreditsStart": 1193000
+  },
+  "trickplayUrls": {
+    "trickplayUrlsCdnSets": [
+      {
+        "cdn": "Cloudfront",
+        "cdnWeightsRank": "1",
+        "trickplayUrlInfoList": [
+          {
+            "resolution": "480",
+            "url": "https://cf-trickplay.aux.pv-cdn.net/ff21/11ce/c5f4/4d3d-95ea-4655aeda6fe0/9415ee6b-9b40-4dc9-bcab-fc8103b25426_240w.bif?Expires=1640649058&Signature=WhcGqfppo4DV10aiesvZiRM~j~b3z15AqHZmd1mpOYH6T2lmRcuFQn5M-~KobK6PDLrEsHse-TWmvAHO9J9H6FDCgSwjrcD8Uc9ffcLf6i94fvu~lzfP7BQnTMcJK1YBbtPVLsxSMH1eGP5hAYfoX7KECIlTd5AG9YPmvN20ENhD9e8zOBwlD47fXzkXwPSfeAiljrMOWvKcvaSduTnX6LojWbTqhi8pQAbU0IWrYgkp5~wAeeJ~oya991ThIlSGkfpApAVS6qGNZvU-V1LphoJtI-yYSR6slHkz0pb9YiygemHOds8mTpMu4E19Gcpa5LBuAiAXKKfc0no57iUeFA__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA"
+          },
+          {
+            "resolution": "720",
+            "url": "https://cf-trickplay.aux.pv-cdn.net/3aef/4a7b/ea7d/496f-8631-07832d8fb9e7/4965ea51-9014-49f6-abc7-5506b3ed2ae3_320w.bif?Expires=1640649058&Signature=JhP7wOMkJFjGEl8~WcRGyUrfDdD7SDa55gcd6I~h4-j9WLYxkzmiqaOzELQq90e2WSvqA2s8YkBQ~kR8L2FLd1s8gvmmpG4qqjpD0phckvqBynemy8r61CsCbhmK3q0J0v28hCjH86digawsZLasvgoW5zKg8L1qFaQvA-afLwJ8UjIdBXeS~Erwwq49Im9BfywfU5MHfiWT1q0kFQ6ztJJk1XWez0lkDToAbuygf90t4oWHced8GI6GL6miIJbLBK7wo31hmzxDX3gQOcwznmDlTFrGdo3OUTYmGwQ-hk2PAvVg9K5v0cZfvtIszK8bFceAq5ubc1oL0eCNw3WnMQ__&Key-Pair-Id=APKAJIYEUF5P2E3CCYTA"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+[
+  {
+    "id": "urn:hbo:video:GX7Q2Ig5dtiLDwwEAAATz:episode:GXBwC2QPms0S7iQEAAARw",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"1bc3-CwxBhFpHBEO9+71jmBm1gg\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AMAZON"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=ko-KR&r.duration=2988.318604&r.host=https%3A%2F%2Fcmaf.cf.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX7Q2Ig5dtiLDwwEAAATz%2F1%2Ff90132%2F1_JcoEXg_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Q2Ig5dtiLDwwEAAATz/1/f90132/1_JcoEXg_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "ko-KR",
+          "defaultAudioSelection": {
+            "language": "ko-KR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "ko-KR",
+              "output": "5.1 Surround",
+              "displayName": "한국어",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "ko-KR",
+              "output": "5.1 Surround",
+              "displayName": "한국어",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "ko-KR",
+              "output": "Stereo",
+              "displayName": "한국어",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "ko-KR",
+              "output": "Stereo",
+              "displayName": "한국어",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Q2Ig5dtiLDwwEAAATz/1/f90132/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Q2Ig5dtiLDwwEAAATz/1/f90132/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2988.318603515,
+          "ratingCode": "TV-MA",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            },
+            {
+              "code": "V",
+              "name": "Violence"
+            }
+          ],
+          "videoId": "GX7Q39A6jK8IOwwEAAAWL",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 110.98599999999999,
+              "end": 182.934,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "ko-KR",
+          "defaultAudioSelection": {
+            "language": "ko-KR",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "ko-KR",
+              "output": "5.1 Surround",
+              "displayName": "한국어",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "ko-KR",
+              "output": "5.1 Surround",
+              "displayName": "한국어",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "ko-KR",
+              "output": "Stereo",
+              "displayName": "한국어",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "ko-KR",
+              "output": "Stereo",
+              "displayName": "한국어",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Q2Ig5dtiLDwwEAAATz/1/f90132/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX7Q2Ig5dtiLDwwEAAATz/1/f90132/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2988.318603515,
+          "videoId": "GX7Q39A6jK8IOwwEAAAWL",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 110.98599999999999,
+              "end": 182.934,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

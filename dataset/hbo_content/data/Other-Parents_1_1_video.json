@@ -1,0 +1,145 @@
+[
+  {
+    "id": "urn:hbo:video:GYBMmBgIQdhCVgQEAAAAs:episode:GYBMmBwLZu4cyvgEAAAAf",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"1987-X3STGvhS4ZzyK872leCEQg\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "LEVEL3"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=de-DE&r.duration=2005.970703&r.host=https%3A%2F%2Fcmaf.lv3.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGYBMmBgIQdhCVgQEAAAAs%2F5%2Fcfab06%2F5_single_Hl4ECA_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GYBMmBgIQdhCVgQEAAAAs/5/cfab06/5_single_Hl4ECA_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "en-US",
+          "defaultAudioSelection": {
+            "language": "de-DE",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "de-DE",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "de-DE",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "de-DE",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "de-DE",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GYBMmBgIQdhCVgQEAAAAs/5/cfab06/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GYBMmBgIQdhCVgQEAAAAs/5/cfab06/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2005.970703125,
+          "ratingCode": "TV-MA",
+          "videoId": "GYBMmBwPRGn3DwwEAAAAq",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 19.086,
+              "end": 58.092,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "en-US",
+          "defaultAudioSelection": {
+            "language": "de-DE",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "de-DE",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "de-DE",
+              "output": "5.1 Surround",
+              "displayName": "Deutsch",
+              "trackName": "a2",
+              "type": "Program"
+            },
+            {
+              "language": "de-DE",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "de-DE",
+              "output": "Stereo",
+              "displayName": "Deutsch",
+              "trackName": "a0",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GYBMmBgIQdhCVgQEAAAAs/5/cfab06/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.lv3.us.hbomaxcdn.com/videos/GYBMmBgIQdhCVgQEAAAAs/5/cfab06/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 2005.970703125,
+          "videoId": "GYBMmBwPRGn3DwwEAAAAq",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 19.086,
+              "end": 58.092,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

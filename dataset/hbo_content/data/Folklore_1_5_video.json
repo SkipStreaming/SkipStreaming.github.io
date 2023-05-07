@@ -1,0 +1,155 @@
+[
+  {
+    "id": "urn:hbo:video:GX7Q1nw405cIOwwEAAASo:episode:GXBwDJw8EeIa1vAEAAAWY",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"1b53-OibmF478zyp8RIGpw8fliw\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AKAMAI"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=zlm-SG&r.duration=3074.404785&r.host=https%3A%2F%2Fcmaf.akm.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX7Q1nw405cIOwwEAAASo%2F1%2F97d5d0%2F1_Ju4EXA_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q1nw405cIOwwEAAASo/1/97d5d0/1_Ju4EXA_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "zlm-SG",
+          "defaultAudioSelection": {
+            "language": "zlm-SG",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "zlm-SG",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "zlm-SG",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "zlm-SG",
+              "output": "Stereo",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "zlm-SG",
+              "output": "Stereo",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q1nw405cIOwwEAAASo/1/97d5d0/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q1nw405cIOwwEAAASo/1/97d5d0/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3074.404785156,
+          "ratingCode": "TV-14",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            }
+          ],
+          "videoId": "GX7Q3ZwioxFaiwgEAAARQ",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 297.005,
+              "end": 368.953,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "zlm-SG",
+          "defaultAudioSelection": {
+            "language": "zlm-SG",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "zlm-SG",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "zlm-SG",
+              "output": "5.1 Surround",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "zlm-SG",
+              "output": "Stereo",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "zlm-SG",
+              "output": "Stereo",
+              "displayName": "Bahasa Malaysia",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q1nw405cIOwwEAAASo/1/97d5d0/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.akm.us.hbomaxcdn.com/videos/GX7Q1nw405cIOwwEAAASo/1/97d5d0/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 3074.404785156,
+          "videoId": "GX7Q3ZwioxFaiwgEAAARQ",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 297.005,
+              "end": 368.953,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

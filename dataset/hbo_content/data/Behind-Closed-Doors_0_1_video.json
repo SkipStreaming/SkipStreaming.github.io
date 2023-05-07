@@ -1,0 +1,179 @@
+[
+  {
+    "id": "urn:hbo:video:GX2ETswyHF8IkhQEAAAAE:episode:GX2ETsgHGTcN8XgEAAAAo",
+    "statusCode": 200,
+    "headers": {
+      "ETag": "\"2097-EvcrteiStV4lei01OqI6aQ\"",
+      "Cache-Control": "max-age=59"
+    },
+    "body": {
+      "cdn": {
+        "provider": "AMAZON"
+      },
+      "profile": "CMAF_CTR_VIDEO",
+      "manifest": "https://manifests.v2.api.hbo.com/dash.mpd?f.audioLanguage=hi-IN&f.textLanguage=en-US&r.duration=4640.135742&r.host=https%3A%2F%2Fcmaf.cf.us.hbomaxcdn.com&r.keymod=2&r.main=0&r.manifest=videos%2FGX2ETswyHF8IkhQEAAAAE%2F1%2F3b1fe7%2F1_KzYEwg_noanc_1080hi.mpd&r.origin=cmaf",
+      "manifestType": "SingleVideo",
+      "videoType": "vod",
+      "fallbackManifest": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX2ETswyHF8IkhQEAAAAE/1/3b1fe7/1_KzYEwg_noanc_1080hi.mpd",
+      "containerType": "DASH",
+      "drm": {
+        "authType": "certificate",
+        "keySystem": "com.widevine.alpha",
+        "licenseUrl": "https://comet.api.hbo.com/drm/license/widevine?keygen=playready&drmKeyVersion=2",
+        "name": "Widevine",
+        "uuid": "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+      },
+      "playbackOptions": {
+        "maxResolution": "HD",
+        "useVideoPreloading": true
+      },
+      "videos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "hif-FJ",
+          "defaultAudioSelection": {
+            "language": "hi-IN",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "hi-IN",
+              "output": "5.1 Surround",
+              "displayName": "हिन्दी",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "hi-IN",
+              "output": "5.1 Surround",
+              "displayName": "हिन्दी",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "hi-IN",
+              "output": "Stereo",
+              "displayName": "हिन्दी",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "hi-IN",
+              "output": "Stereo",
+              "displayName": "हिन्दी",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX2ETswyHF8IkhQEAAAAE/1/3b1fe7/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX2ETswyHF8IkhQEAAAAE/1/3b1fe7/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX2ETswyHF8IkhQEAAAAE/1/3b1fe7/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 4640.135742187,
+          "ratingCode": "TV-14",
+          "advisories": [
+            {
+              "code": "AC",
+              "name": "Adult Content"
+            },
+            {
+              "code": "AL",
+              "name": "Adult Language"
+            },
+            {
+              "code": "MV",
+              "name": "Mild Violence"
+            }
+          ],
+          "videoId": "GX2ETyAwLCcIkhQEAAAAG",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 231.481,
+              "end": 272.85699999999997,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ],
+      "fallbackVideos": [
+        {
+          "type": "urn:video:main",
+          "originalAudioLanguage": "hif-FJ",
+          "defaultAudioSelection": {
+            "language": "hi-IN",
+            "type": "Program"
+          },
+          "audioTracks": [
+            {
+              "language": "hi-IN",
+              "output": "5.1 Surround",
+              "displayName": "हिन्दी",
+              "trackName": "a1",
+              "type": "Program"
+            },
+            {
+              "language": "hi-IN",
+              "output": "5.1 Surround",
+              "displayName": "हिन्दी",
+              "trackName": "a0",
+              "type": "Program"
+            },
+            {
+              "language": "hi-IN",
+              "output": "Stereo",
+              "displayName": "हिन्दी",
+              "trackName": "a3",
+              "type": "Program"
+            },
+            {
+              "language": "hi-IN",
+              "output": "Stereo",
+              "displayName": "हिन्दी",
+              "trackName": "a2",
+              "type": "Program"
+            }
+          ],
+          "textTracks": [
+            {
+              "type": "SDH",
+              "language": "en-US",
+              "displayName": "English CC",
+              "url": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX2ETswyHF8IkhQEAAAAE/1/3b1fe7/t/sub/en-US_sdh.xml",
+              "format": "SMPTE-TT",
+              "location": "Sidecar"
+            }
+          ],
+          "trickplayUrlTemplates": {
+            "hd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX2ETswyHF8IkhQEAAAAE/1/3b1fe7/images/images_2_{0:00000000}.jpg",
+            "sd": "https://cmaf.cf.us.hbomaxcdn.com/videos/GX2ETswyHF8IkhQEAAAAE/1/3b1fe7/images/images_1_{0:00000000}.jpg"
+          },
+          "start": 0,
+          "duration": 4640.135742187,
+          "videoId": "GX2ETyAwLCcIkhQEAAAAG",
+          "annotations": [
+            {
+              "type": "SKIP",
+              "start": 231.481,
+              "end": 272.85699999999997,
+              "label": "ResSkipIntroButtonTitle",
+              "secondaryType": "Intro"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
