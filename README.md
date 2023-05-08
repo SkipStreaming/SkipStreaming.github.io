@@ -1,12 +1,10 @@
 # SkipStreaming: Pinpointing User-Perceived Redundancy in Correlated Web Video Streaming through the Lens of Scenes
 
-![GitHub](https://img.shields.io/github/license/SkipStreaming/SkipStreaming.github.io?color=important)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-brightgreen)
-![GitHub repo size](https://img.shields.io/github/repo-size/SkipStreaming/SkipStreaming.github.io)
+![GitHub](https://img.shields.io/github/license/SkipStreaming/SkipStreaming.github.io?color=important) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-brightgreen) ![Dependencies](https://img.shields.io/badge/dependencies-FFmpeg%20%7C%20Puppeteer-pink) ![GitHub repo size](https://img.shields.io/github/repo-size/SkipStreaming/SkipStreaming.github.io)
 
 
 
-## 0. Table of Content
+## 0. Table of Contents
 
 * [Introduction](#1-Introduction)
 * [Code](#2-Code)
