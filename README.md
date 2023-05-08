@@ -6,9 +6,9 @@
 
 ## 0. Table of Contents
 
-* [Introduction](#1-Introduction)
-* [Code](#2-Code)
-* [Dataset](#3-Dataset)
+* [Introduction](#1-introduction)
+* [Code](#2-code)
+* [Dataset](#3-dataset)
 
 ## 1. Introduction
 
