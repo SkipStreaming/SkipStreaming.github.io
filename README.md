@@ -10,6 +10,8 @@
 
 ## 1. Introduction
 
+![design_arch](https://user-images.githubusercontent.com/97234359/236974939-b5a7917e-39f7-45a9-8b7c-df6b78372c88.png)
+
 SkipStreaming is a high-performance and accurate visual redundancy detection system for correlated videos (e.g., a series of TV episodes, shows, and documentaries).
 
 SkipStreaming is built based on the novel perspective of "scenes", which are the basic story units that compose a video. It extracts scene information via our specially-designed "audio-guided scene sketch" methodology, and selectively compares a small portion of video frames to quickly detect visual redundancy.
