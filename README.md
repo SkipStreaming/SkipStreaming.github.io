@@ -11,7 +11,7 @@
 
 ## 1. Motivation
 
-The seemingly easy-to-mark visually redundant clips (e.g., intros, outros, recaps, and commercial breaks) have long been existent. Although mainstreaming video content providers (VCPs) such as  Netflix, Amazon Prime Video, HBO Max have provided corresponding functionalities for helping users skip them, they  incur poor user experiences in practice. We list the specific undesired symptoms as follows (visit the [GitHub Pages version](https://skipstreaming.github.io/) to watch the real-world cases).
+The seemingly easy-to-mark visually redundant clips (e.g., intros, outros, recaps, and commercial breaks) have long been existent in correlated videos (e.g., a series of TV episodes, shows, and documentaries). Although mainstreaming video content providers (VCPs) such as  Netflix, Amazon Prime Video, HBO Max have provided corresponding functionalities for helping users skip them, they  incur poor user experiences in practice. We list the specific undesired symptoms as follows (visit the [GitHub Pages version](https://skipstreaming.github.io/) to watch the real-world cases).
 
 * **Probabilistic skip on the same clip:** A same redundant clip appears in a series of TV episodes. It is automatically skipped during the web-based playback of Episode 15, but not for Episode 16.
 
@@ -37,7 +37,7 @@ The seemingly easy-to-mark visually redundant clips (e.g., intros, outros, recap
 
 ![design_arch](https://user-images.githubusercontent.com/97234359/236974939-b5a7917e-39f7-45a9-8b7c-df6b78372c88.png)
 
-SkipStreaming is a high-performance and accurate visual redundancy detection system for correlated videos (e.g., a series of TV episodes, shows, and documentaries).
+SkipStreaming is a high-performance and accurate visual redundancy detection system for correlated videos.
 
 SkipStreaming is built based on the novel perspective of "scenes", which are the basic story units that compose a video. It extracts scene information via our specially-designed "audio-guided scene sketch" methodology, and selectively compares a small portion of video frames to quickly detect visual redundancy.
 
