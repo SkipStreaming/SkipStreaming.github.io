@@ -15,7 +15,7 @@ The seemingly easy-to-mark visually redundant clips have long been existent. Alt
 
 * Crash on Skip: When a skip action occurs, the web-based video player crashes.
 
-<video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/crash.mp4'></video>
+<video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/crash.mp4' controls="" width="100%"></video>
 
 
 ## 2. Solution
