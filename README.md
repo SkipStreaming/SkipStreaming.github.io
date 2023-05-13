@@ -11,7 +11,7 @@
 
 ## 1. Motivation
 
-The seemingly easy-to-mark visually redundant clips have long been existent. Although mainstreaming video content providers (VCPs) such as  Netflix, Amazon Prime Video, HBO Max have provided corresponding functionalities for helping users skip them, they  incur poor user experiences in practice. We list the specific undesired symptoms as follows.
+The seemingly easy-to-mark visually redundant clips have long been existent. Although mainstreaming video content providers (VCPs) such as  Netflix, Amazon Prime Video, HBO Max have provided corresponding functionalities for helping users skip them, they  incur poor user experiences in practice. We list the specific undesired symptoms as follows (visit the [GitHub Pages version](https://skipstreaming.github.io/) to watch the real-world cases).
 
 * Crash on Skip: When a skip action occurs, the web-based video player crashes.
 
