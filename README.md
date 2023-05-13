@@ -23,14 +23,14 @@ The seemingly easy-to-mark visually redundant clips (e.g., intros, outros, recap
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/abrupt_netflix.mp4' controls="" width="100%"></video>
 
 
-* **Abrupt skip:** A redundant clip is skipped but with an incorrect duration that users can perceive. In considerable (16%) cases, the deviation is longer than 5 seconds.
-
-<video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/abrupt_netflix.mp4' controls="" width="100%"></video>
-
-
 * **Circumscribed skip:** Only the redundant clips at the head or the tail of correlated videos are skipped.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/circumscribed.mp4' controls="" width="100%"></video>
+
+
+* **Crash on skip:** When a skip action occurs, the web-based video player crashes.
+
+<video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/crash.mp4' controls="" width="100%"></video>
 
 
 ## 2. Solution
