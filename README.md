@@ -13,6 +13,11 @@
 
 The seemingly easy-to-mark visually redundant clips have long been existent. Although mainstreaming video content providers (VCPs) such as  Netflix, Amazon Prime Video, HBO Max have provided corresponding functionalities for helping users skip them, they  incur poor user experiences in practice. We list the specific undesired symptoms as follows.
 
+* Crash on Skip: When a skip action occurs, the web-based video player crashes.
+
+<video src='videos/crash.mp4'>
+
+
 ## 2. Solution
 
 ![design_arch](https://user-images.githubusercontent.com/97234359/236974939-b5a7917e-39f7-45a9-8b7c-df6b78372c88.png)
