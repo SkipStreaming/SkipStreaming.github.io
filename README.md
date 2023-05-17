@@ -13,22 +13,22 @@
 
 The seemingly easy-to-mark visually redundant clips (e.g., intros, outros, recaps, and commercial breaks) have long been existent in correlated videos (e.g., a series of TV episodes, shows, and documentaries). Although mainstreaming video content providers (VCPs) such as  Netflix, Amazon Prime Video, HBO Max have provided corresponding functionalities for helping users skip them, they  incur poor user experiences in practice. We list the specific undesired symptoms as follows.
 
-* **Probabilistic skip on the same clip:** A same redundant clip appears in a series of TV episodes. It is automatically skipped during the web-based playback of Episode 15, but not for Episode 16. The example video clip is from Episode 15 and Episode 16 of *Friends (Season 1)* on HBO Max.
+* **Probabilistic skip on the same clip:** A same redundant clip appears in a series of TV episodes. It is automatically skipped during the web-based playback of Episode 15, but not for Episode 16. The example video clip is cut from Episode 15 and Episode 16 of *Friends (Season 1)* on HBO Max.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/probabilistic.mp4' controls="" width="100%"></video>
 
 
-* **Abrupt skip:** A redundant clip is skipped but with an incorrect duration that users can perceive. In considerable (16%) cases, the deviation is longer than 5 seconds. The example video clip is from Episode 6 of *Diplomat* on Netflix.
+* **Abrupt skip:** A redundant clip is skipped but with an incorrect duration that users can perceive. In considerable (16%) cases, the deviation is longer than 5 seconds. The example video clip is cut from Episode 6 of *Diplomat* on Netflix.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/abrupt_netflix.mp4' controls="" width="100%"></video>
 
 
-* **Circumscribed skip:** Only the redundant clips at the head or the tail of correlated videos are skipped. The example video clip is from Episode 2 of *DC's Stargirl (Season 3)* on HBO Max.
+* **Circumscribed skip:** Only the redundant clips at the head or the tail of correlated videos are skipped. The example video clip is cut from Episode 2 of *DC's Stargirl (Season 3)* on HBO Max.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/circumscribed.mp4' controls="" width="100%"></video>
 
 
-* **Crash on skip:** When a skip action occurs, the web-based video player crashes. The example video clip is from Episode 6 of *Song of Phoenix* on iQIYI.
+* **Crash on skip:** When a skip action occurs, the web-based video player crashes. The example video clip is cut from Episode 6 of *Song of Phoenix* on iQIYI.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/crash.mp4' controls="" width="100%"></video>
 
