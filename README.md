@@ -58,6 +58,7 @@ SkipStreaming can be built and run on either Windows or Linux platform. Here we 
   * Visual Studio 2022
   * Node.js 18.12.0 (For data collection)
 * **Dependencies**
+  * FFmpeg@4.3.1
   * librosa@0.10.0.post2 `pip install librosa `
   * numpy@1.23.5 `pip install numpy`
   * puppeteer@12.0.1 `npm install puppeteer`
