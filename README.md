@@ -82,7 +82,7 @@ First, run `scene_tree.py` to build scene tree for the comparing videos and outp
 python scene_tree.py -i <video directory>
 ```
 
-Then run SkipStreaming for each two pair of videos.
+Then, run SkipStreaming for each pair of videos.
 
 ```
 ./SkipStreaming.exe \
