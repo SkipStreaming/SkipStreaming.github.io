@@ -47,7 +47,7 @@ This repository hosts the code of SkipStreaming and the video dataset involved i
 
 The key component of SkipStreaming is a stand-alone server module implemented with a total of 4K and 300 lines of C/C++ and Python code, which can be seamlessly integrated into mainstream web servers with minimal configurations.
 
-The source code of SkipStreaming is released at [https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/SkipStreaming](https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/SkipStreaming)
+The source code of SkipStreaming is released at [SkipStreaming.github.io/SkipStreaming](https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/SkipStreaming)
 
 #### Prerequisites
 
@@ -98,7 +98,7 @@ Then, run SkipStreaming for each pair of videos.
 
 We provide the information (in particular the marker information) about our dataset videos collected from major VCPs.
 
-The dataset is available at [https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/dataset](https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/dataset)
+The dataset is available at [SkipStreaming.github.io/dataset](https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/dataset)
 
 | VCP                | Directory      | Marker Collection Methods                                    |
 | ------------------ | -------------- | ------------------------------------------------------------ |
