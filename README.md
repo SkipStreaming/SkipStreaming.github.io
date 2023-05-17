@@ -13,22 +13,22 @@
 
 The seemingly easy-to-mark visually redundant clips (e.g., intros, outros, recaps, and commercial breaks) have long been existent in correlated videos (e.g., a series of TV episodes, shows, and documentaries). Although mainstreaming video content providers (VCPs) such as  Netflix, Amazon Prime Video, HBO Max have provided corresponding functionalities for helping users skip them, they  incur poor user experiences in practice. We list the specific undesired symptoms as follows.
 
-* **Probabilistic skip on the same clip:** A same redundant clip appears in a series of TV episodes. It is automatically skipped during the web-based playback of Episode 15, but not for Episode 16.
+* **Probabilistic skip on the same clip:** A same redundant clip appears in a series of TV episodes. It is automatically skipped during the web-based playback of Episode 15, but not for Episode 16. The example video clip is from Episode 15 and Episode 16 of *Friends (Season 1)* on HBO Max.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/probabilistic.mp4' controls="" width="100%"></video>
 
 
-* **Abrupt skip:** A redundant clip is skipped but with an incorrect duration that users can perceive. In considerable (16%) cases, the deviation is longer than 5 seconds.
+* **Abrupt skip:** A redundant clip is skipped but with an incorrect duration that users can perceive. In considerable (16%) cases, the deviation is longer than 5 seconds. The example video clip is from Episode 6 of *Diplomat* on Netflix.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/abrupt_netflix.mp4' controls="" width="100%"></video>
 
 
-* **Circumscribed skip:** Only the redundant clips at the head or the tail of correlated videos are skipped.
+* **Circumscribed skip:** Only the redundant clips at the head or the tail of correlated videos are skipped. The example video clip is from Episode 2 of *DC's Stargirl (Season 3)* on HBO Max.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/circumscribed.mp4' controls="" width="100%"></video>
 
 
-* **Crash on skip:** When a skip action occurs, the web-based video player crashes.
+* **Crash on skip:** When a skip action occurs, the web-based video player crashes. The example video clip is from Episode 6 of *Song of Phoenix* on iQIYI.
 
 <video src='https://github.com/SkipStreaming/SkipStreaming.github.io/raw/main/videos/crash.mp4' controls="" width="100%"></video>
 
@@ -48,6 +48,51 @@ This repository hosts the code of SkipStreaming and the video dataset involved i
 The key component of SkipStreaming is a stand-alone server module implemented with a total of 4K and 300 lines of C/C++ and Python code, which can be seamlessly integrated into mainstream web servers with minimal configurations.
 
 The source code of SkipStreaming is released at [https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/SkipStreaming](https://github.com/SkipStreaming/SkipStreaming.github.io/tree/main/SkipStreaming)
+
+#### Prerequisites
+
+SkipStreaming can be built and run on either Windows or Linux platform. Here we provide the guide on how to build and run it on Windows.
+
+* **Environments**
+  * Python 3.10
+  * Visual Studio 2022
+  * Node.js 18.12.0 (For data collection)
+* **Dependencies**
+  * librosa@0.10.0.post2 `pip install librosa `
+  * numpy@1.23.5 `pip install numpy`
+  * puppeteer@12.0.1 `npm install puppeteer`
+  * bluebird@3.7.2 `npm install bluebird`
+
+#### Build SkipStreaming with Visual Studio
+
+1. Just open `SkipStreaming.sln` using Visual Studio 2022
+2. Right click the SkipStreaming project in Visual Studio and enter the property window in the popup menu
+3. Switch the platform to *Win32* in the configuration
+4. Click the *Debug* tab and add `PATH=%PATH%;$(ProjectDir).\dll` to the environment
+5. Switch to *x86* in the ribbon column
+6. Build and Execute through `Ctrl+F5`
+
+#### Usage
+
+Suppose that we have two videos to be compared, one is `reference video` and the other is `query video`.
+
+First, run `scene_tree.py` to build scene tree for the comparing videos and output the scene tree information to text files.
+
+```
+python scene_tree.py -i <video directory>
+```
+
+Then run SkipStreaming for each two pair of videos.
+
+```
+./SkipStreaming.exe \
+-r <path to reference video> \
+-x <path to multi-index hash table> \
+-q <path to query video> \
+-a <path to scene tree> \
+-g <path to ground truth file> \
+-o <path to output markers>
+```
 
 ## 4. Dataset
 
