@@ -83,7 +83,7 @@ First, run `scene_tree.py` to build scene tree for the comparing videos and outp
 python scene_tree.py -i <video directory>
 ```
 
-Then, run SkipStreaming for each pair of videos.
+Then, run SkipStreaming for each pair of videos and get the results in the output text files, where each line represents the beginning and ending frame of a detected redundant clip.
 
 ```
 ./SkipStreaming.exe \
